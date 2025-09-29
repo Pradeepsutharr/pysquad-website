@@ -1,0 +1,10 @@
+{
+  "[project]/src/components/technologies/django/index.js [client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/technologies/django/index.js [client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_components_79bc0e10._.js",
+      "static/chunks/node_modules_ca72dd93._.js",
+      "static/chunks/src_components_technologies_django_index_caf1fba8.js"
+    ]
+  }
+}

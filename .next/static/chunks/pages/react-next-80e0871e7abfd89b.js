@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[681],{18084:(e,n,t)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/react-next",function(){return t(28145)}])},28145:(e,n,t)=>{"use strict";t.r(n),t.d(n,{default:()=>u});var _=t(37876);t(14232);let u=function(){return(0,_.jsx)("div",{children:"ReactNext"})}}},e=>{e.O(0,[636,593,792],()=>e(e.s=18084)),_N_E=e.O()}]);

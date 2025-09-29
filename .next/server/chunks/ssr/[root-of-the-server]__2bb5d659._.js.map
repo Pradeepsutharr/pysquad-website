@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["turbopack:///[next]/internal/font/google/barlow_fcaf9228.module.css [ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"className\": \"barlow_fcaf9228-module__nlqqpq__className\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA","ignoreList":[0]}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["turbopack:///[next]/internal/font/google/barlow_fcaf9228.js"],"sourcesContent":["import cssModule from \"@vercel/turbopack-next/internal/font/google/cssmodule.module.css?{%22path%22:%22_app.js%22,%22import%22:%22Barlow%22,%22arguments%22:[{%22subsets%22:[%22latin%22],%22weight%22:[%22100%22,%22200%22,%22300%22,%22400%22,%22500%22,%22600%22,%22700%22],%22display%22:%22swap%22}],%22variableName%22:%22roboto%22}\";\nconst fontData = {\n    className: cssModule.className,\n    style: {\n        fontFamily: \"'Barlow', 'Barlow Fallback'\",\n        fontStyle: \"normal\",\n\n    },\n};\n\nif (cssModule.variable != null) {\n    fontData.variable = cssModule.variable;\n}\n\nexport default fontData;\n"],"names":[],"mappings":";;;AAAA;;AACA,MAAM,WAAW;IACb,WAAW,+IAAA,CAAA,UAAS,CAAC,SAAS;IAC9B,OAAO;QACH,YAAY;QACZ,WAAW;IAEf;AACJ;AAEA,IAAI,+IAAA,CAAA,UAAS,CAAC,QAAQ,IAAI,MAAM;IAC5B,SAAS,QAAQ,GAAG,+IAAA,CAAA,UAAS,CAAC,QAAQ;AAC1C;uCAEe","ignoreList":[0],"debugId":null}}]
+}

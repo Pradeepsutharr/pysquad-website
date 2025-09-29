@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[473],{26112:(_,n,e)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/fast-api",function(){return e(28121)}])},28121:(_,n,e)=>{"use strict";e.r(n),e.d(n,{default:()=>t});var s=e(37876);e(14232);let t=function(){return(0,s.jsx)("div",{children:"FastApi"})}}},_=>{_.O(0,[636,593,792],()=>_(_.s=26112)),_N_E=_.O()}]);

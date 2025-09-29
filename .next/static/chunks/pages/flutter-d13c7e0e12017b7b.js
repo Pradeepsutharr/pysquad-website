@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[882],{18680:(e,t,u)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/flutter",function(){return u(52932)}])},52932:(e,t,u)=>{"use strict";u.r(t),u.d(t,{default:()=>n});var _=u(37876);u(14232);let n=function(){return(0,_.jsx)("div",{children:"Flutter"})}}},e=>{e.O(0,[636,593,792],()=>e(e.s=18680)),_N_E=e.O()}]);

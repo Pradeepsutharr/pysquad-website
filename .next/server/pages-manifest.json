@@ -1,0 +1,18 @@
+{
+  "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/about": "pages/about.js",
+  "/blogs": "pages/blogs.js",
+  "/blogs/[slug]": "pages/blogs/[slug].js",
+  "/career": "pages/career.js",
+  "/case-studies": "pages/case-studies.js",
+  "/case-studies/[slug]": "pages/case-studies/[slug].js",
+  "/contact": "pages/contact.js",
+  "/culture": "pages/culture.js",
+  "/django": "pages/django.js",
+  "/flutter": "pages/flutter.js",
+  "/python": "pages/python.js",
+  "/services": "pages/services.js"
+}
