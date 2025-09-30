@@ -73,7 +73,7 @@ function Navbar() {
               </Link>
 
               {nav_item.has_dropdown && (
-                <ul className="sub-menu absolute top-full left-0 mt-3 bg-white border-primary border rounded-xl shadow-lg py-2 w-[560px] z-30 ">
+                <ul className="sub-menu absolute top-full left-[-160px] mt-3 bg-white border-primary border rounded-xl shadow-lg py-2 w-[560px] z-30 ">
                   {nav_item.sub_menus.map((item, i) => (
                     <li
                       key={i}

@@ -1,5 +1,4 @@
 import React from "react";
-import dynamic from "next/dynamic";
 import axios from "axios";
 import ContactArea from "@/common/contact-area";
 import BlogsDetailsPage from "@/components/blog-details";

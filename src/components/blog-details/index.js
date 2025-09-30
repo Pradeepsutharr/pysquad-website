@@ -3,10 +3,7 @@ import { useRouter } from "next/router";
 import Image from "next/image";
 import { Calendar, Share, Copy } from "lucide-react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import {
-  atomDark,
-  a11yDark,
-} from "react-syntax-highlighter/dist/esm/styles/prism";
+import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 import parse from "html-react-parser";
 import Link from "next/link";
