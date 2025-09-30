@@ -7,8 +7,8 @@ import GetExactHelp from "./get-exact-help";
 import ServicesWeOffer from "./services-we-offer";
 import TechStack from "./tech-stack";
 import Testimonials from "./testimonials";
-import BlogArea from "../common/blog-area";
-import ContactArea from "../common/contact-area";
+import BlogArea from "@/common/blog-area";
+import ContactArea from "@/common/contact-area";
 import StatsCards from "../Stats-card";
 
 function HomePage() {

@@ -1,5 +1,5 @@
 import React from "react";
-import CtaButton from "../ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 
 function JoinOurTeam() {
   return (

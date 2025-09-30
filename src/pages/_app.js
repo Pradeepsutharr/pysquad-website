@@ -1,6 +1,5 @@
-import Footer from "@/components/layout/footer";
-import Header from "@/components/layout/header";
-import Navbar from "@/components/layout/navbar";
+import Footer from "@/layout/footer";
+import Header from "@/layout/header";
 import "@/styles/globals.css";
 import Script from "next/script";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import CtaButton from "@/components/ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 
 function FlutterHero() {
   return (

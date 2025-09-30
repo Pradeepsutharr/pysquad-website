@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import CtaButton from "@/components/ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 
 function DjangoHero() {
   return (

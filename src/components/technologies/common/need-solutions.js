@@ -1,4 +1,4 @@
-import CtaButton from "@/components/ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 import React from "react";
 

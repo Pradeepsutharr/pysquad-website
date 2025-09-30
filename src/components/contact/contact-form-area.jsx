@@ -9,7 +9,7 @@ import {
   PhoneCall,
   Mail,
 } from "lucide-react";
-import ContactForm from "../form/contact-form";
+import ContactForm from "@/form/contact-form";
 
 function ContactFormArea() {
   return (

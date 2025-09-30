@@ -5,7 +5,7 @@ import CultureGallery from "./gallery";
 import EmployeeBenefits from "./employee-benefits";
 import Events from "./events";
 import JoinOurTeam from "./join-our-team";
-import ContactArea from "../common/contact-area";
+import ContactArea from "@/common/contact-area";
 // import SEO from "../common/seo";
 
 function CulturePageComponent() {

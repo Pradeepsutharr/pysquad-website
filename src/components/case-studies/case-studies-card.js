@@ -4,7 +4,28 @@ import Link from "next/link";
 import Image from "next/image";
 import { Share, MoveRight } from "lucide-react";
 
-function CaseStudiesCard({ image, category, slug, title, alt }) {
+function CaseStudiesCard({ image, category, slug, title, alt, data }) {
+  const handleShare = (data) => {
+    const shareData = {
+      title: data.project_title,
+      text: `Check out this blog: ${data.title}`,
+      url: window.location.origin + "/case-studies/" + data?.slug,
+    };
+
+    if (navigator.share) {
+      navigator
+        .share(shareData)
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.error("Error sharing:", error));
+    } else {
+      // Fallback: copy URL to clipboard
+      navigator.clipboard
+        .writeText(shareData.url)
+        .then(() => alert("Blog URL copied to clipboard"))
+        .catch(() => alert("Failed to copy URL"));
+    }
+  };
+
   return (
     <div className="case-study-card shadow-lg bg-white p-4 rounded-xl">
       <div className="image rounded-lg overflow-hidden max-h-[230px] object-cover ">
@@ -16,7 +37,7 @@ function CaseStudiesCard({ image, category, slug, title, alt }) {
       </div>
       <div className="flex justify-between items-center my-2 text-textSecondary">
         <span className="">{category}</span>
-        <span className="">
+        <span onClick={() => handleShare(data)} className="cursor-pointer">
           <Share size={16} />
         </span>
       </div>

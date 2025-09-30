@@ -11,7 +11,7 @@ import {
 import parse from "html-react-parser";
 import Link from "next/link";
 import Skeleton from "react-loading-skeleton";
-import SEO from "../common/seo";
+import SEO from "@/common/seo";
 
 function BlogsDetailsPage({ blogData }) {
   const router = useRouter();
@@ -64,11 +64,32 @@ function BlogsDetailsPage({ blogData }) {
     });
   };
 
+  const handleShare = (blog) => {
+    const shareData = {
+      title: blog.title,
+      text: `Check out this blog: ${blog.title}`,
+      url: window.location.origin + "/blogs/" + blog?.slug,
+    };
+
+    if (navigator.share) {
+      navigator
+        .share(shareData)
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.error("Error sharing:", error));
+    } else {
+      // Fallback: copy URL to clipboard
+      navigator.clipboard
+        .writeText(shareData.url)
+        .then(() => alert("Blog URL copied to clipboard"))
+        .catch(() => alert("Failed to copy URL"));
+    }
+  };
+
   return (
     <>
       <SEO
         ogTitle={blogData?.title}
-        ogUrl={"https://www.pysquad.com"}
+        ogUrl={`https://www.pysquad.com/blogs/${blogData.slug}/`}
         ogImage={blogData?.bg_image}
         pageTitle={`${blogData?.title}`}
         pageDescription={`${
@@ -129,7 +150,12 @@ function BlogsDetailsPage({ blogData }) {
                 <div className="flex items-center gap-4 ">
                   <Calendar /> {blogDetails.modified}
                 </div>
-                <Share />
+                <span
+                  onClick={() => handleShare(blogDetails)}
+                  className="cursor-pointer"
+                >
+                  <Share />
+                </span>
               </div>
 
               <div className="blog-content  space-y-4 text-paragraph font-regular">

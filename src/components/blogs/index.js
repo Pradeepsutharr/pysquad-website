@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import BlogsHero from "./hero";
 import axios from "axios";
-import BlogCard from "../common/blog-card";
+import BlogCard from "@/common/blog-card";
 import Skeleton from "react-loading-skeleton";
 
 function BlogsPage() {
@@ -89,6 +89,7 @@ function BlogsPage() {
                         category={blog?.category?.title}
                         title={blog?.title}
                         slug={blog?.slug}
+                        blog={blog}
                       />
                     </div>
                   </div>

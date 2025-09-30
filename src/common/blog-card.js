@@ -7,12 +7,6 @@ import Link from "next/link";
 import { Heart, Share } from "lucide-react";
 
 function BlogCard({ image, alt, date, category, title, slug, blog }) {
-  const [liked, setLiked] = useState(false);
-
-  const handleLike = () => {
-    setLiked(!liked);
-  };
-
   const handleShare = (blog) => {
     const shareData = {
       title: blog.title,

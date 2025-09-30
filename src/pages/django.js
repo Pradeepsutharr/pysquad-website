@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import SEO from "@/components/common/seo";
+import SEO from "@/common/seo";
 
 const DJangoPage = dynamic(() => import("../components/technologies/django"));
 

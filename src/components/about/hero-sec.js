@@ -1,5 +1,5 @@
 import React from "react";
-import CtaButton from "../ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 import Link from "next/link";
 import Image from "next/image";
 

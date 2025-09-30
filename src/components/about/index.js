@@ -5,7 +5,7 @@ import OurJourney from "./our-journey";
 import OurMissionVision from "./mission-vision";
 import OurTeam from "./our-team";
 import HowWeWork from "./how-we-work";
-import ContactArea from "../common/contact-area";
+import ContactArea from "@/common/contact-area";
 
 function AboutPageComponent() {
   return (

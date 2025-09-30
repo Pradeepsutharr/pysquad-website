@@ -5,9 +5,7 @@ import dynamic from "next/dynamic";
 const CaseStudiesDetailsComponent = dynamic(() =>
   import("../../components/case-studies-details")
 );
-const ContactArea = dynamic(() =>
-  import("../../components/common/contact-area")
-);
+const ContactArea = dynamic(() => import("../../common/contact-area"));
 
 function CaseStudiesDetails({ caseStudyData }) {
   return (

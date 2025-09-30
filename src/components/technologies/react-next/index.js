@@ -4,8 +4,8 @@ import ReactServices from "./services";
 import NeedSolutions from "../common/need-solutions";
 import ReactExpertise from "./expertise";
 import Journey from "../common/journey";
-import ClientReviews from "@/components/common/client-reviews";
-import ContactArea from "@/components/common/contact-area";
+import ClientReviews from "@/common/client-reviews";
+import ContactArea from "@/common/contact-area";
 
 function ReactPage() {
   return (

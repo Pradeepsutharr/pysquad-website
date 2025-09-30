@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
-import ContactArea from "@/components/common/contact-area";
-import SEO from "@/components/common/seo";
+import ContactArea from "@/common/contact-area";
+import SEO from "@/common/seo";
 
 const BlogsPgae = dynamic(() => import("../../components/blogs"));
 

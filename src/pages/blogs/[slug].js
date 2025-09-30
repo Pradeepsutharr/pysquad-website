@@ -1,9 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import axios from "axios";
-import ContactArea from "@/components/common/contact-area";
-import SEO from "@/components/common/seo";
-const BlogsDetailsPage = dynamic(() => import("../../components/blog-details"));
+import ContactArea from "@/common/contact-area";
+import BlogsDetailsPage from "@/components/blog-details";
 
 function BlogDetails({ blogData }) {
   return (

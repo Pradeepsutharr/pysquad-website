@@ -8,7 +8,7 @@ import {
   tools,
   ai,
 } from "./data/tech-stack-data";
-import CtaButton from "../ui/cta-btn";
+import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 
 function TechStack() {

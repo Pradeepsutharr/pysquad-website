@@ -68,6 +68,7 @@ function CaseStudiesPage() {
                         category={item.category}
                         title={item.project_title}
                         slug={item.slug}
+                        data={item}
                       />
                     </div>
                   </div>

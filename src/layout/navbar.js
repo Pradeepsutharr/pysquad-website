@@ -34,6 +34,7 @@ function Navbar() {
       case "/django":
       case "/react-next":
       case "/flutter":
+      case "/fast-api":
         setIsActive("");
         break;
 

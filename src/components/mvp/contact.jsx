@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "../form/contact-form";
+import ContactForm from "@/form/contact-form";
 import { Check } from "lucide-react";
 import Image from "next/image";
 

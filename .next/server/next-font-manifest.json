@@ -1,1 +1,16 @@
-{"pages":{"/_app":["static/media/61d96c4884191721-s.p.woff2","static/media/60c9b95e8d9e49be-s.p.woff2","static/media/da6e8409c2538de5-s.p.woff2","static/media/727a5e5939c45715-s.p.woff2","static/media/6ad0344ed98ac2e9-s.p.woff2","static/media/b0bb26939bb40fdb-s.p.woff2","static/media/1ba0a863e6af8aeb-s.p.woff2"]},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":true}
+{
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pages": {
+    "/_app": [
+      "static/media/bd44c1b4586fa6d6-s.p.a7391143.woff2",
+      "static/media/d2bc4a5703934422-s.p.640568e7.woff2",
+      "static/media/2fc44f533cc760b8-s.p.37ced5e5.woff2",
+      "static/media/0be20cc749a530c3-s.p.26bb1640.woff2",
+      "static/media/90e41b9d07adde51-s.p.ba5ee546.woff2",
+      "static/media/0498c01bef399c32-s.p.5b25a388.woff2",
+      "static/media/5885aae57e67fc42-s.p.f6cb2d4a.woff2"
+    ]
+  },
+  "pagesUsingSizeAdjust": true
+}

@@ -1,4 +1,4 @@
-import SEO from "@/components/common/seo";
+import SEO from "@/common/seo";
 import dynamic from "next/dynamic";
 const HomePage = dynamic(() => import("../components/home"));
 

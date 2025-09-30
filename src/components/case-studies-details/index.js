@@ -2,9 +2,9 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState, useTransition } from "react";
 import { Calendar, Share, SquareCheck } from "lucide-react";
-import ClientReviews from "../common/client-reviews";
+import ClientReviews from "@/common/client-reviews";
 import Link from "next/link";
-import SEO from "../common/seo";
+import SEO from "@/common/seo";
 
 function CaseStudiesDetailsComponent({ caseStudyData }) {
   const router = useRouter();
@@ -17,6 +17,27 @@ function CaseStudiesDetailsComponent({ caseStudyData }) {
       setLoading(false);
     }, 1000);
   }, []);
+
+  const handleShare = (data) => {
+    const shareData = {
+      title: data.project_title,
+      text: `Check out this blog: ${data.title}`,
+      url: window.location.origin + "/case-studies/" + data?.slug,
+    };
+
+    if (navigator.share) {
+      navigator
+        .share(shareData)
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.error("Error sharing:", error));
+    } else {
+      // Fallback: copy URL to clipboard
+      navigator.clipboard
+        .writeText(shareData.url)
+        .then(() => alert("Blog URL copied to clipboard"))
+        .catch(() => alert("Failed to copy URL"));
+    }
+  };
 
   return (
     <>
@@ -90,7 +111,12 @@ function CaseStudiesDetailsComponent({ caseStudyData }) {
                     })
                     .replace(/\//g, "-")}
                 </div>
-                <Share size={20} />
+                <span
+                  onClick={() => handleShare(caseData)}
+                  className="cursor-pointer"
+                >
+                  <Share size={20} />
+                </span>
               </div>
 
               <div className="flex items-start justify-between">
