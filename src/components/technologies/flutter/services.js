@@ -1,23 +1,18 @@
 import React from "react";
-import { python_services } from "./data/python-services";
+import { flutter_services } from "./data/flutter-services";
 
-function PythonServices() {
+function FlutterServices() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
       <div className="container">
         <h2 className="text-3xl text-textPrimary md:text-4xl font-semibold mb-2 capitalize">
-          <span className="text-primary">Services Pysquad Offer </span>
-          using python
+          <span className="text-primary">Services offering by PySquad </span>
+          Using Flutter
         </h2>
-        <p className="text-textSecondary mb-10">
-          From automating tasks to building full-scale applications, we use
-          Python to deliver solutions that are simple, effective, and aligned
-          with your needs.
-        </p>
 
-        <div className="flex flex-wrap justify-between lg:gap-y-10">
-          {python_services &&
-            python_services.map((service) => (
+        <div className="flex flex-wrap justify-between lg:gap-y-10 mt-12">
+          {flutter_services &&
+            flutter_services.map((service) => (
               <div key={service.id} className="col-12 md:col-6 lg:col-4">
                 <div className="card">
                   {service.icon}
@@ -36,4 +31,4 @@ function PythonServices() {
   );
 }
 
-export default PythonServices;
+export default FlutterServices;

@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   devIndicators: false,
+  productionBrowserSourceMaps: true,
   images: {
     formats: ["image/avif", "image/webp"],
     remotePatterns: [
@@ -30,6 +31,22 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
+  },
+
+  // custom headers for caching
+  async headers() {
+    return [
+      {
+        // Match all static assets (js, css, images, fonts, json)
+        source: "/:all*(js|css|jpg|jpeg|gif|png|svg|ico|webp|avif|woff2|json)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, max-age=31536000, immutable",
+          },
+        ],
+      },
+    ];
   },
 };
 

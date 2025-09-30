@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.pysquad.com/
+
+# Sitemaps
+Sitemap: https://www.pysquad.com/sitemap.xml

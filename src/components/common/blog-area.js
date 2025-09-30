@@ -40,6 +40,7 @@ function BlogArea() {
         src="/images/blog_sec_bg.png"
         alt="pysquad_blogs"
         fill
+        priority
         className="object-cover opacity-50 z-[-1]"
       />
       <div className="container p-0">
@@ -81,6 +82,7 @@ function BlogArea() {
                       category={blog.category.title}
                       title={blog.title}
                       slug={blog.slug}
+                      blog={blog}
                     />
                   </div>
                 </div>

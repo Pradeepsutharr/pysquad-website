@@ -72,8 +72,8 @@ function CaseStudiesDetailsComponent({ caseStudyData }) {
                 <Image
                   src={caseData?.project_images?.detail}
                   alt={caseData?.project_title}
-                  height={667}
                   width={1000}
+                  height={667}
                   priority
                   className="w-full h-auto "
                 />

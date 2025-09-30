@@ -1,4 +1,3 @@
-import { all } from "axios";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -136,7 +135,7 @@ function ContactForm({ borderColor, inputBg, color }) {
         )}
       </div>
 
-      <div className="col-6">
+      <div className="col-12 my-[-10px]">
         <ReCAPTCHA
           className={`${showCaptcha ? "block" : "hidden"}`}
           sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}

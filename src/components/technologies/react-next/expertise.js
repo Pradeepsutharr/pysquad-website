@@ -1,25 +1,20 @@
 import React from "react";
-import { python_expertise } from "./data/python-expertise";
+import { react_expertise } from "./data/react-expertise";
 
-function PythonExpertise() {
+function ReactExpertise() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
       <div className="container">
         <div className="col-12">
           <h2 className="text-3xl text-textPrimary md:text-4xl font-semibold mb-2 capitalize">
             <span className="text-primary">Why Work with Pysquad </span>
-            for python
+            for React.Js & Next.Js
           </h2>
-          <p className="text-textSecondary mb-10">
-            From automating tasks to building full-scale applications, we use
-            Python to deliver solutions that are simple, effective, and aligned
-            with your needs.
-          </p>
         </div>
 
         <div className="flex flex-wrap justify-between lg:gap-y-10">
-          {python_expertise &&
-            python_expertise.map((item) => (
+          {react_expertise &&
+            react_expertise.map((item) => (
               <div key={item.id} className="col-12 md:col-6 tech-expertise">
                 <div className="expertise-card flex items-center justify-between">
                   <div className="text-content col-8 p-0">
@@ -42,4 +37,4 @@ function PythonExpertise() {
   );
 }
 
-export default PythonExpertise;
+export default ReactExpertise;

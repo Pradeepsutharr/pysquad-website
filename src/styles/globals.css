@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,700;6..12,800&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Oswald:wght@200&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,700;6..12,800&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Oswald:wght@200&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -186,17 +186,6 @@ body {
   border: none;
 }
 
-.hero,
-.service-hero,
-.blogs-hero,
-.about-hero-sec {
-  background-image: url(../../public/images/hero_bg.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: difference;
-}
-
 .gredient-btn {
   background: linear-gradient(90deg, #0a948a 0%, #05dac3 100%);
 }
@@ -208,14 +197,8 @@ body {
   background-position: center;
 }
 
-.industry-card {
-  max-height: 400px;
-  overflow: hidden;
-}
-
-.industry-card:hover .content {
-  transform: translateY(-28%);
-  /* transition: all 0.3s; */
+.industry-icon svg {
+  max-height: 80px !important;
 }
 
 .tech-btn:after {
@@ -388,15 +371,7 @@ body {
 }
 
 .clip-hex-reverse {
-  /* clip-path: polygon(80% 0, 100% 25%, 100% 100%, 19% 100%, 0 76%, 0 0); */
-  clip-path: polygon(
-    0 0,
-    /* top-left corner */ 86% 0,
-    /* move inward from right side instead of left */ 100% 13%,
-    /* cut in on top-right */ 100% 100%,
-    /* bottom-right */ 14% 100%,
-    /* cut in on bottom-left */ 0 87% /* cut in on left side */
-  );
+  clip-path: polygon(0 0, 86% 0, 100% 13%, 100% 100%, 14% 100%, 0 87%);
 }
 
 .avatar-group {

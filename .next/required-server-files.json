@@ -99,7 +99,7 @@
     "sassOptions": {},
     "trailingSlash": false,
     "i18n": null,
-    "productionBrowserSourceMaps": false,
+    "productionBrowserSourceMaps": true,
     "excludeDefaultMomentLocales": true,
     "serverRuntimeConfig": {},
     "publicRuntimeConfig": {},
@@ -121,7 +121,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\pysquad",
+    "outputFileTracingRoot": "D:\\pysquad-website",
     "experimental": {
       "useSkewCookie": false,
       "nodeMiddleware": false,
@@ -312,10 +312,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "D:\\pysquad"
+      "root": "D:\\pysquad-website"
     }
   },
-  "appDir": "D:\\pysquad",
+  "appDir": "D:\\pysquad-website",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

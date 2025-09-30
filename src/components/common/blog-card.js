@@ -4,13 +4,34 @@ import Skeleton from "react-loading-skeleton";
 
 import "react-loading-skeleton/dist/skeleton.css";
 import Link from "next/link";
-import { Heart } from "lucide-react";
+import { Heart, Share } from "lucide-react";
 
-function BlogCard({ image, alt, date, category, title, slug }) {
+function BlogCard({ image, alt, date, category, title, slug, blog }) {
   const [liked, setLiked] = useState(false);
 
   const handleLike = () => {
     setLiked(!liked);
+  };
+
+  const handleShare = (blog) => {
+    const shareData = {
+      title: blog.title,
+      text: `Check out this blog: ${blog.title}`,
+      url: window.location.origin + "/blogs/" + blog?.slug,
+    };
+
+    if (navigator.share) {
+      navigator
+        .share(shareData)
+        .then(() => console.log("Shared successfully"))
+        .catch((error) => console.error("Error sharing:", error));
+    } else {
+      // Fallback: copy URL to clipboard
+      navigator.clipboard
+        .writeText(shareData.url)
+        .then(() => alert("Blog URL copied to clipboard"))
+        .catch(() => alert("Failed to copy URL"));
+    }
   };
 
   return (
@@ -33,7 +54,10 @@ function BlogCard({ image, alt, date, category, title, slug }) {
           <span>{date}</span>
           <span className="ms-4">{category}</span>
         </div>
-        <span>
+        <span onClick={() => handleShare(blog)} className="cursor-pointer">
+          <Share size={20} />
+        </span>
+        {/* <span>
           {liked ? (
             <Heart
               className="cursor-pointer text-primary fill-[red] stroke-[red]"
@@ -45,7 +69,7 @@ function BlogCard({ image, alt, date, category, title, slug }) {
               onClick={handleLike}
             />
           )}
-        </span>
+        </span> */}
       </div>
       <Link
         href={{

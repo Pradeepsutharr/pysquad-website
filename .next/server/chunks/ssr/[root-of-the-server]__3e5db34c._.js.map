@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///D:/pysquad/src/pages/flutter.js"],"sourcesContent":["import React from \"react\";\n\nfunction Flutter() {\n  return <div>Flutter</div>;\n}\n\nexport default Flutter;\n"],"names":[],"mappings":";;;;AAAA;;;AAEA,SAAS;IACP,qBAAO,qKAAC;kBAAI;;;;;;AACd;uCAEe","debugId":null}}]
-}

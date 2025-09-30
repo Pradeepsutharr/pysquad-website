@@ -1,30 +1,31 @@
 import { UserCog, Rocket, MonitorSmartphone, RefreshCw } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const helpOptions = [
   {
     icon: "/icons/developers.svg",
     title: "I Need Developers",
     description: "Hire dedicated developers for your project needs.",
-    details: "Expend Details",
+    link: "/hire-developers",
   },
   {
     icon: "/icons/soft-solution.svg",
     title: "I Need A Complete Software Solution",
     description: "End-to-end software development.",
-    details: "Expend Details",
+    link: "/software",
   },
   {
     icon: "/icons/mvp.svg",
     title: "I Need An MVP",
     description: "Build an MVP fast to test your idea and launch quicker.",
-    details: "Expend Details",
+    link: "/mvp",
   },
   {
     icon: "/icons/product.svg",
     title: "I Need To Redesign Or Upgrade My Existing Product",
     description: "Refresh your product & boost performance.",
-    details: "Expend Details",
+    link: "/product",
   },
 ];
 
@@ -35,6 +36,7 @@ export default function GetExactHelp() {
         src="/images/exact_help_bg.png"
         alt="pysquad"
         fill
+        priority
         className="object-cover opacity-45 z-[-1]"
       />
       <div className="container">
@@ -59,9 +61,12 @@ export default function GetExactHelp() {
                   className="mb-4"
                   alt={item.title}
                 />
-                <span className="inline-block text-white  tracking-wide text-sm  ">
-                  {item.details}
-                </span>
+                <Link
+                  href={item.link}
+                  className="inline-block text-white  tracking-wide text-sm hover:text-primary hover:underline duration-150 "
+                >
+                  Expand Details
+                </Link>
               </div>
               <div className="col-8">
                 <h3 className="text-lg md:text-xl font-medium text-white mb-1 group-hover:text-primary">

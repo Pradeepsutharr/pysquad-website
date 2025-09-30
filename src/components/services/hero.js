@@ -1,10 +1,17 @@
 import React from "react";
-import Link from "next/link";
+import Image from "next/image";
 import CtaButton from "../ui/cta-btn";
 
 function ServicesHero() {
   return (
-    <section className="service-hero py-12 md:py-16 lg:py-20">
+    <section className="service-hero py-12 md:py-16 lg:py-20 relative">
+      <Image
+        src="/images/hero_bg.png"
+        alt="pysquad"
+        fill
+        priority
+        className="object-cover z-[-1] opacity-45"
+      />
       <div className="container py-12 md:py-16 lg:py-20">
         <div className="flex flex-col justify-center items-center text-center">
           <h1 className=" text-3xl lg:text-5xl font-bold lg:leading-snug capitalize">

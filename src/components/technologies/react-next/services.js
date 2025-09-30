@@ -1,7 +1,7 @@
 import React from "react";
-import { python_services } from "./data/python-services";
+import { react_services } from "./data/react-services";
 
-function PythonServices() {
+function ReactServices() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
       <div className="container">
@@ -16,9 +16,9 @@ function PythonServices() {
         </p>
 
         <div className="flex flex-wrap justify-between lg:gap-y-10">
-          {python_services &&
-            python_services.map((service) => (
-              <div key={service.id} className="col-12 md:col-6 lg:col-4">
+          {react_services &&
+            react_services.map((service) => (
+              <div key={service.id} className="col-12 md:col-6 lg:col-3">
                 <div className="card">
                   {service.icon}
                   <h3 className="text-textPrimary text-xl font-semibold my-4">
@@ -36,4 +36,4 @@ function PythonServices() {
   );
 }
 
-export default PythonServices;
+export default ReactServices;

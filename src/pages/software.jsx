@@ -1,7 +1,16 @@
 import React from "react";
+import dynamic from "next/dynamic";
+import SEO from "@/components/common/seo";
+
+const SoftwareComponent = dynamic(() => import("../components/software"));
 
 function SoftwareSolutions() {
-  return <div>SoftwareSolutions</div>;
+  return (
+    <>
+      <SEO pageTitle={"Build Great Software"} />
+      <SoftwareComponent />
+    </>
+  );
 }
 
 export default SoftwareSolutions;

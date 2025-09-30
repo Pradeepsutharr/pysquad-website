@@ -1,23 +1,21 @@
 import React from "react";
-import { python_services } from "./data/python-services";
+import { fastApi_services } from "./data/fast-api-services";
 
-function PythonServices() {
+function FastApiServices() {
   return (
     <section className="py-12 md:py-16 lg:py-20">
       <div className="container">
         <h2 className="text-3xl text-textPrimary md:text-4xl font-semibold mb-2 capitalize">
           <span className="text-primary">Services Pysquad Offer </span>
-          using python
+          using FastApi
         </h2>
         <p className="text-textSecondary mb-10">
-          From automating tasks to building full-scale applications, we use
-          Python to deliver solutions that are simple, effective, and aligned
-          with your needs.
+          Here is how FastApi can empower your development proccess
         </p>
 
         <div className="flex flex-wrap justify-between lg:gap-y-10">
-          {python_services &&
-            python_services.map((service) => (
+          {fastApi_services &&
+            fastApi_services.map((service) => (
               <div key={service.id} className="col-12 md:col-6 lg:col-4">
                 <div className="card">
                   {service.icon}
@@ -36,4 +34,4 @@ function PythonServices() {
   );
 }
 
-export default PythonServices;
+export default FastApiServices;

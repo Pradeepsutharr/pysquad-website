@@ -1,19 +1,19 @@
 import React from "react";
-import PythonHero from "./hero-sec";
-import PythonServices from "./services";
+import FlutterHero from "./hero-sec";
+import FlutterServices from "./services";
 import NeedSolutions from "../common/need-solutions";
-import PythonExpertise from "./expertise";
+import FlutterExpertise from "./expertise";
 import Journey from "../common/journey";
 import ClientReviews from "@/components/common/client-reviews";
 import ContactArea from "@/components/common/contact-area";
 
-function PythonPage() {
+function FlutterPage() {
   return (
     <>
-      <PythonHero />
-      <PythonServices />
-      <NeedSolutions technology={"Python"} />
-      <PythonExpertise />
+      <FlutterHero />
+      <FlutterServices />
+      <NeedSolutions technology={"Flutter"} />
+      <FlutterExpertise />
       <Journey />
       <ClientReviews />
       <ContactArea />
@@ -21,4 +21,4 @@ function PythonPage() {
   );
 }
 
-export default PythonPage;
+export default FlutterPage;

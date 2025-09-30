@@ -17,8 +17,8 @@ function MobileNavbar() {
           <Image
             src="/images/Logo.png"
             alt="logo"
-            width={144}
-            height={34}
+            width={256}
+            height={49}
             priority
           />
         </Link>
@@ -48,8 +48,8 @@ function MobileNavbar() {
               <Image
                 src="/images/Logo.png"
                 alt="logo"
-                width={144}
-                height={34}
+                width={754}
+                height={145}
                 priority
               />
             </Link>

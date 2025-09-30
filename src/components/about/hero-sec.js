@@ -1,10 +1,18 @@
 import React from "react";
 import CtaButton from "../ui/cta-btn";
 import Link from "next/link";
+import Image from "next/image";
 
 function AboutHeroSec() {
   return (
-    <section className="about-hero-sec py-12 md:py-16 lg:py-20">
+    <section className="about-hero-sec py-12 md:py-16 lg:py-20 relative">
+      <Image
+        src="/images/hero_bg.png"
+        fill
+        alt="pysquad"
+        priority
+        className="object-cover z-[-1] opacity-45"
+      />
       <div className="container p-0">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">

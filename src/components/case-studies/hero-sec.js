@@ -1,9 +1,17 @@
 import React from "react";
 import { Search } from "lucide-react";
+import Image from "next/image";
 
 function CaseStudiesHero({ searched, onSearchChange }) {
   return (
-    <section>
+    <section className="py-12 md:py-16 relative">
+      <Image
+        src="/images/hero_bg.png"
+        alt="pysquad"
+        fill
+        priority
+        className="object-cover z-[-1] opacity-45"
+      />
       <div className="container p-0">
         <div className="flex">
           <div className="col-12">

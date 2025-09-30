@@ -140,8 +140,7 @@ function Testimonials() {
                 </div>
                 <div className="text-left mt-3">
                   <p className="text-textSecondary italic text-base ">
-                    “This company transformed our business with their
-                    outstanding service and support. Highly recommend!”
+                    {item.description}
                   </p>
                 </div>
               </SwiperSlide>
@@ -151,14 +150,14 @@ function Testimonials() {
         <div className="flex flex-wrap justify-between items-center mt-10">
           <div
             ref={(node) => setPaginationEl(node)}
-            className="mb-6 col-8 flex gap-2 custom-pagination col cursor-pointer "
+            className="col-12 md:col-6 flex gap-3 items-center justify-center md:justify-start custom-pagination cursor-pointer md:max-w-[50%] p-0"
           ></div>
-          <Link
+          {/* <Link
             href="#"
-            className="capitalize underline text-primary font-medium whitespace-nowrap text-right"
+            className="col-12 md:col-4 capitalize underline text-primary font-medium whitespace-nowrap text-center md:text-right"
           >
             view all testimonials
-          </Link>
+          </Link> */}
         </div>
       </div>
 

@@ -21,8 +21,8 @@ export default function Footer() {
             <div className="w-36">
               <Image
                 src="/images/Logo_light.png"
-                width={754}
-                height={145}
+                width={187}
+                height={35}
                 alt="pysquad_logo"
                 className="h-6 mb-4"
               />
@@ -90,7 +90,7 @@ export default function Footer() {
 
           {/* Right Column */}
           <div className="lg:col-3 md:col-6 col-12">
-            <h4 className="font-medium mb-3">Newsletter</h4>
+            <h2 className="font-medium mb-3">Newsletter</h2>
             <form className="flex mb-6">
               <input
                 type="email"
@@ -99,6 +99,7 @@ export default function Footer() {
               />
               <button
                 name="submit-btn"
+                aria-label="submit"
                 type="submit"
                 className="bg-textPrimary px-4 py-2 rounded-r hover:bg-primary transition flex items-center justify-center"
               >
@@ -106,7 +107,7 @@ export default function Footer() {
               </button>
             </form>
 
-            <h4 className="font-medium mb-3">Our Products</h4>
+            <h3 className="font-medium mb-3">Our Products</h3>
             <div className="flex items-center mb-4">
               <Image
                 src="/images/sharelyze.png"
@@ -119,22 +120,22 @@ export default function Footer() {
             </div>
 
             <div className="flex space-x-4 text-xl">
-              <Link href="#">
+              <Link href="#" aria-label="twitter">
                 <Twitter className="hover:text-primary" size={20} />
               </Link>
-              <Link href="#">
+              <Link href="#" aria-label="skype">
                 {/* <Skype className="hover:text-primary" size={20} /> */}
               </Link>
-              <Link href="#">
+              <Link href="#" aria-label="github">
                 <Github className="hover:text-primary" size={20} />
               </Link>
-              <Link href="#">
+              <Link href="#" aria-label="instagram">
                 <Instagram className="hover:text-primary" size={20} />
               </Link>
-              <Link href="#">
+              <Link href="#" aria-label="linkedin">
                 <Linkedin className="hover:text-primary" size={20} />
               </Link>
-              <Link href="#">
+              <Link href="#" aria-label="facebook">
                 <Facebook className="hover:text-primary" size={20} />
               </Link>
             </div>

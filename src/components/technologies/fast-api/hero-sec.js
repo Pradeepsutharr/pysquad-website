@@ -10,7 +10,7 @@ function FastApiHero() {
             <div className="col-12 md:col-6 lg:col-6">
               <h1 className="text-3xl lg:text-5xl font-bold lg:leading-tight capitalize text-textPrimary">
                 <span>Build High-Performance APIs Faster with</span>
-                <span className="text-primary">FastAPI</span>
+                <span className="text-primary"> FastAPI</span>
               </h1>
 
               <p className="text-textSecondary mt-5">

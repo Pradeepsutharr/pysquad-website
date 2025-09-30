@@ -1,19 +1,19 @@
 import React from "react";
-import PythonHero from "./hero-sec";
-import PythonServices from "./services";
+import ReactHero from "./hero-sec";
+import ReactServices from "./services";
 import NeedSolutions from "../common/need-solutions";
-import PythonExpertise from "./expertise";
+import ReactExpertise from "./expertise";
 import Journey from "../common/journey";
 import ClientReviews from "@/components/common/client-reviews";
 import ContactArea from "@/components/common/contact-area";
 
-function PythonPage() {
+function ReactPage() {
   return (
     <>
-      <PythonHero />
-      <PythonServices />
-      <NeedSolutions technology={"Python"} />
-      <PythonExpertise />
+      <ReactHero />
+      <ReactServices />
+      <NeedSolutions technology={"React"} />
+      <ReactExpertise />
       <Journey />
       <ClientReviews />
       <ContactArea />
@@ -21,4 +21,4 @@ function PythonPage() {
   );
 }
 
-export default PythonPage;
+export default ReactPage;
