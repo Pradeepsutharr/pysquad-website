@@ -1,5 +1,5 @@
 import React from "react";
-import { flutter_services } from "./data/flutter-services";
+import { flutter_services } from "../../../Data/flutter-services";
 
 function FlutterServices() {
   return (

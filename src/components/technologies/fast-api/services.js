@@ -1,5 +1,5 @@
 import React from "react";
-import { fastApi_services } from "./data/fast-api-services";
+import { fastApi_services } from "../../../Data/fast-api-services";
 
 function FastApiServices() {
   return (

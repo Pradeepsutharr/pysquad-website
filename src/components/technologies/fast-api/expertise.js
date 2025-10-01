@@ -1,5 +1,5 @@
 import React from "react";
-import { fastApi_expertise } from "./data/fast-api-expertise";
+import { fastApi_expertise } from "../../../Data/fast-api-expertise";
 
 function FastApiExpertise() {
   return (

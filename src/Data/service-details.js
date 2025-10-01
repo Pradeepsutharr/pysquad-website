@@ -567,7 +567,7 @@ export const service_data = [
         />
       </svg>
     ),
-    bg_image: "/images/dbms.svg",
+    bg_image: "/images/product_development.svg",
     title: "Product Development",
     headline:
       "Our product development services turn your ideas into innovative and market-ready solutions that drive business growth.",

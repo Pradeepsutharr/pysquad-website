@@ -1,5 +1,5 @@
 import React from "react";
-import { django_services } from "./data/django-services";
+import { django_services } from "../../../Data/django-services";
 
 function DjangoServices() {
   return (

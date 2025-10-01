@@ -1,5 +1,5 @@
 import React from "react";
-import { react_expertise } from "./data/react-expertise";
+import { react_expertise } from "../../../Data/react-expertise";
 
 function ReactExpertise() {
   return (

@@ -5,14 +5,14 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className=" lg:py-20 relative">
+    <section className=" lg:py-20 py-12 md:py-16 relative">
       <Image
         src="/images/hero_bg.png"
         alt="pysquad"
         fill
         priority
         fetchPriority="high"
-        className="object-cover opacity-40"
+        className="object-cover opacity-50 z-[-1]"
       />
       <div className="container lg:py-14">
         <div className=" col-12flex flex-col justify-center text-center lg:py-12 ">
@@ -30,12 +30,12 @@ function Hero() {
           </p>
 
           <div className="md:flex-row flex-col  justify-center mt-10">
-            <CtaButton text={"Design with experts"} link={"/contact"} />
+            <CtaButton text={"Explore more"} link={"/services"} />
             <Link
-              href=""
+              href="/contact"
               className="capitalize mt-4 lg:mt-0 lg:inline block py-3 px-10 text-primary text-lg font-medium border-primary border  rounded-lg"
             >
-              See our work
+              Enquire Now
             </Link>
           </div>
         </div>

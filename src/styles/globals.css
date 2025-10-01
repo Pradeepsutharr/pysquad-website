@@ -64,8 +64,6 @@ body {
 }
 
 .Button {
-  display: block;
-  backface-visibility: hidden;
   position: relative;
   color: #98a5a6;
   transition: transform 300ms, color 300ms;
@@ -76,7 +74,9 @@ body {
 }
 
 .Button-svg {
-  height: 60px;
+  width: 100%;
+  height: auto;
+  max-height: 80px;
 }
 @keyframes outer-dashoffset {
   0% {
@@ -129,8 +129,7 @@ body {
   width: 100%;
   z-index: 20;
   animation: header 1s ease-out;
-  background: rgba(246, 248, 255, 0.3);
-  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 10px rgba(3, 4, 28, 0.1);
 }
 
 .nav-link .sub-menu {
@@ -199,6 +198,11 @@ body {
 
 .industry-icon svg {
   max-height: 80px !important;
+}
+
+.soluton-icon svg {
+  height: 40px !important;
+  width: 40px !important;
 }
 
 .tech-btn:after {
@@ -465,4 +469,13 @@ body {
 
 .job-description ul li span {
   color: #5a627d !important;
+}
+
+.footer-social-icon svg {
+  width: 15px !important;
+}
+
+.footer-social-icon:hover svg path {
+  fill: white;
+  transition: 0.3s;
 }

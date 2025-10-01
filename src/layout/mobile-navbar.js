@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Phone, Mail, MapPinned, Linkedin } from "lucide-react";
 import nav_menu_data from "./data/nav-menu-data";
+import BookCallBtn from "@/ui/BookCallBtn";
 
 function MobileNavbar() {
   const [open, setOpen] = useState(false);
@@ -126,6 +127,8 @@ function MobileNavbar() {
               ))}
             </ul>
           </nav>
+
+          <BookCallBtn />
 
           {/* Contact Section */}
           <div className="px-6 mt-auto ">

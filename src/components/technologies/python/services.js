@@ -1,5 +1,5 @@
 import React from "react";
-import { python_services } from "./data/python-services";
+import { python_services } from "../../../Data/python-services";
 
 function PythonServices() {
   return (

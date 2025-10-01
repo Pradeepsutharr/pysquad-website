@@ -78,7 +78,7 @@ function ContactFormArea() {
                   <Twitter />
                 </Link>
                 <Link
-                  href="https://twitter.com/pysquad_info"
+                  href="https://github.com/pysquad_info"
                   target="_blank"
                   className="text-textPrimary hover:bg-black hover:text-white duration-200 bg-[#E5F4F3] min-h-10 min-w-10 rounded-full flex justify-center items-center"
                 >

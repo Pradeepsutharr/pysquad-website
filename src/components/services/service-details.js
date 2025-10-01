@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { service_data } from "./data/service-data";
+import { service_data } from "../../Data/service-details";
 import Image from "next/image";
 import { useRouter } from "next/router";
 

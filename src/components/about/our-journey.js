@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Hexagon } from "lucide-react";
-import { history_data } from "./data/history-data";
+import { history_data } from "../../Data/history-data";
 
 function OurJourney() {
   return (

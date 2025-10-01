@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { testimonial_data } from "@/components/home/data/testimonial-data";
+import { testimonial_data } from "@/Data/testimonial-data";
 
 function ClientReviews() {
   return (

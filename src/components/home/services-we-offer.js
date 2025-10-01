@@ -1,56 +1,6 @@
 import { CloudCog } from "lucide-react";
 import Image from "next/image";
-
-const services = [
-  {
-    icon: CloudCog,
-    title: "Big Data Analysis",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Managed Services",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Managed Services",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Industries",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Managed Services",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Industries",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Managed Services",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-  {
-    icon: CloudCog,
-    title: "Big Data Analysis",
-    description:
-      "Lorem Ipsum is simply dummy text of the typesetting industry.",
-  },
-];
+import { services } from "@/Data/services";
 
 export default function ServicesWeOffer() {
   return (
@@ -75,19 +25,18 @@ export default function ServicesWeOffer() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
-            {services.map(({ icon: Icon, title, description }, idx) => (
+            {services.map((item, index) => (
               <div
-                key={idx}
-                className="group bg-white border border-gray-100 rounded-xl px-7 py-8 flex flex-col items-center text-center transition-all duration-250 shadow-sm hover:shadow-md hover:border-primary hover:-translate-y-1 hover:bg-gray-50 cursor-pointer"
+                key={index}
+                className="group bg-white border border-gray-100 rounded-xl px-7 py-8 flex flex-col transition-all duration-250 shadow-sm hover:shadow-md hover:border-primary hover:-translate-y-1 hover:bg-gray-50 cursor-pointer"
               >
-                <Icon
-                  size={40}
-                  className="mb-4 text-primary transition-colors group-hover:text-primary/80"
-                />
-                <h3 className="text-lg font-medium mb-1 text-textPrimary">
-                  {title}
+                <span className="soluton-icon mb-3">{item.icon}</span>
+                <h3 className="text-lg font-medium mb-1 text-textPrimary capitalize">
+                  {item.title}
                 </h3>
-                <p className=" text-base text-textSecondary">{description}</p>
+                <p className=" text-base text-textSecondary">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>

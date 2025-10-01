@@ -1,5 +1,5 @@
 import React from "react";
-import { django_expertise } from "./data/django-expertise";
+import { django_expertise } from "../../../Data/django-expertise";
 
 function DjangoExpertise() {
   return (

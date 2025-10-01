@@ -7,7 +7,7 @@ import {
   native,
   tools,
   ai,
-} from "./data/tech-stack-data";
+} from "../../Data/tech-stack-data";
 import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 

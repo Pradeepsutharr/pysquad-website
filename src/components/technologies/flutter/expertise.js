@@ -1,5 +1,5 @@
 import React from "react";
-import { flutter_expertise } from "./data/flutter-expertise";
+import { flutter_expertise } from "../../../Data/flutter-expertise";
 
 function FlutterExpertise() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { python_expertise } from "./data/python-expertise";
+import { python_expertise } from "../../../Data/python-expertise";
 
 function PythonExpertise() {
   return (

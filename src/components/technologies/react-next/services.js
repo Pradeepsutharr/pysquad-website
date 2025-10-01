@@ -1,5 +1,5 @@
 import React from "react";
-import { react_services } from "./data/react-services";
+import { react_services } from "../../../Data/react-services";
 
 function ReactServices() {
   return (

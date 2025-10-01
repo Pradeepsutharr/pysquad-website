@@ -10,6 +10,8 @@ import {
   // Skype,
 } from "lucide-react";
 import Image from "next/image";
+import LinkedInButton from "@/ui/linkedin-btn";
+import { social_links } from "./data/social-media-links";
 
 export default function Footer() {
   return (
@@ -27,7 +29,7 @@ export default function Footer() {
                 className="h-6 mb-4"
               />
             </div>
-            <p className="text-xs leading-normal font-light mb-3">
+            <p className=" leading-normal font-normal mb-3">
               Contact us today to learn more about how PySquad Informatics can
               help your business succeed with our web, app, ai and cloud
               services.
@@ -42,10 +44,13 @@ export default function Footer() {
               <p className="mb-1 font-semibold leading-normal text-white">
                 India
               </p>
-              <p className="mb-1 text-light text-xs leading-normal">
+              <Link
+                href="tel:+91 8980255005"
+                className="mb-1 font-normal leading-normal"
+              >
                 +91 8980255005
-              </p>
-              <p className="mb-1 text-light text-xs leading-normal">
+              </Link>
+              <p className="mb-1 font-normal leading-normal">
                 A 605, Shilp Aaron, Sindhu Bhavan Road, Ahmedabad, IN 380054,
                 India
               </p>
@@ -54,7 +59,7 @@ export default function Footer() {
 
           {/* Middle Column */}
           <div className="lg:col-3 md:col-6 col-12">
-            <ul className="space-y-4 font-medium">
+            <ul className="space-y-4 font-normal">
               <li>
                 <Link href="/" className="hover:text-primary">
                   Home
@@ -119,34 +124,35 @@ export default function Footer() {
               <span className="ms-2">ShareLyze</span>
             </div>
 
-            <div className="flex space-x-4 text-xl">
-              <Link href="#" aria-label="twitter">
-                <Twitter className="hover:text-primary" size={20} />
-              </Link>
-              <Link href="#" aria-label="skype">
-                {/* <Skype className="hover:text-primary" size={20} /> */}
-              </Link>
-              <Link href="#" aria-label="github">
-                <Github className="hover:text-primary" size={20} />
-              </Link>
-              <Link href="#" aria-label="instagram">
-                <Instagram className="hover:text-primary" size={20} />
-              </Link>
-              <Link href="#" aria-label="linkedin">
-                <Linkedin className="hover:text-primary" size={20} />
-              </Link>
-              <Link href="#" aria-label="facebook">
-                <Facebook className="hover:text-primary" size={20} />
-              </Link>
+            <div className="flex space-x-4 items-center text-xl">
+              <div className="flex space-x-4 items-center">
+                {social_links.map((item) => (
+                  <Link
+                    key={item.id}
+                    href={item.url}
+                    aria-label={item.title}
+                    className="footer-social-icon bg-white w-6 h-6 rounded-full flex justify-center items-center hover:bg-primary duration-300"
+                  >
+                    <span className="">{item.icon}</span>
+                  </Link>
+                ))}
+              </div>
+
+              <span className="mb-1">
+                <LinkedInButton />
+              </span>
             </div>
           </div>
         </div>
       </div>
 
       <div className="border-t border-gray-700 mt-6">
-        <div className="container flex flex-wrap justify-between py-6 text-gray-400 text-xs">
-          <p>© Copyright 2024 P/Squad Informatics LLP. All Rights Reserved</p>
-          <div className="flex space-x-6">
+        <div className="container flex flex-col md:flex-row flex-wrap justify-center md:justify-between text-center md:text-start py-6 text-gray-400 text-xs">
+          <p>
+            © Copyright {new Date().getFullYear()} PySquad Informatics LLP. All
+            Rights Reserved
+          </p>
+          <div className="flex flex-col  md:flex-row space-x-6">
             <Link href="/terms" className="hover:text-primary">
               Terms and conditions
             </Link>

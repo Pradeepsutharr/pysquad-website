@@ -47,20 +47,21 @@ function Navbar() {
   }, [location]);
 
   return (
-    <div className={`hidden lg:flex items-center justify-between `}>
-      <Link href="/" className="pys-logo w-44">
+    <div className={`flex items-center justify-between `}>
+      <Link href="/" className="pys-logo w-52 ">
         <Image
           src="/images/Logo.png"
           alt="logo"
           width={754}
           height={145}
           priority
+          className=""
         />
       </Link>
-      <nav>
-        <ul className="flex items-center gap-16 relative">
+      <nav className="md:max-w-[750px] lg:max-w-[850px] w-full">
+        <ul className="flex items-center justify-evenly relative ">
           {nav_menu_data.map((nav_item, idx) => (
-            <li key={idx} className="relative nav-link">
+            <li key={idx} className="relative nav-link inline-block">
               <Link
                 href={nav_item.link}
                 className={`font-medium text-lg hover:text-primary py-8 ${
@@ -83,7 +84,7 @@ function Navbar() {
                         href={`${item.link}?id=${item?.id}`}
                         target={item?.title === "Odoo ERP" ? "_blank" : "_self"}
                         as={item.link}
-                        className="flex items-center gap-4 w-full py-3"
+                        className="flex items-center gap-4 w-full py-3 capitalize"
                       >
                         <div className="sub-menu-icon bg-[#DAF3F1] p-2 rounded-lg">
                           {item.icon}

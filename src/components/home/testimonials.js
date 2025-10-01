@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { testimonial_data } from "./data/testimonial-data";
+import { testimonial_data } from "../../Data/testimonial-data";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -168,14 +168,14 @@ function Testimonials() {
           onClick={closeModal}
         >
           <div
-            className="bg-black rounded-lg max-w-6xl w-full relative"
+            className="bg-black rounded-lg max-w-6xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             <video
               ref={videoRef}
               controls
               autoPlay
-              className="w-full h-auto rounded-lg"
+              className="w-full  max-h-[100vh] rounded-lg"
               src={activeVideo}
             >
               Your browser does not support the video tag.
