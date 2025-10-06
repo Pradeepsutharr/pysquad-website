@@ -60,7 +60,7 @@
 
 body {
   font-family: "Barlow";
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .Button {
@@ -445,12 +445,14 @@ body {
 
 .facilities > div:nth-child(even) div,
 .events > div:nth-child(even) div,
-.addresses > div:nth-child(even) div {
+.addresses > div:nth-child(even) div,
+.stats > div:nth-child(even) div {
   clip-path: polygon(14% 0, 100% 0, 100% 87%, 86% 100%, 0 100%, 0 13%);
 }
 .facilities > div:nth-child(odd) div,
 .events > div:nth-child(odd) div,
-.addresses > div:nth-child(odd) div {
+.addresses > div:nth-child(odd) div,
+.stats > div:nth-child(odd) div {
   clip-path: polygon(0 0, 86% 0, 100% 13%, 100% 100%, 14% 100%, 0 87%);
 }
 

@@ -38,7 +38,7 @@ export default function Footer() {
               href="mailto:solutions@psquad.com"
               className="flex items-center gap-2 text-primary my-4"
             >
-              <Mail size={16} /> Solutions@psquad.com
+              <Mail size={16} /> Solutions@pysquad.com
             </Link>
             <div className="flex flex-col gap-1 ">
               <p className="mb-1 font-semibold leading-normal text-white">

@@ -623,7 +623,7 @@ const nav_menu_data = [
     sub_menus: [
       {
         id: 1,
-        link: "/logistics",
+        link: "/industries/logistics",
         title: "Logistics",
         icon: (
           <svg
@@ -670,7 +670,7 @@ const nav_menu_data = [
       },
       {
         id: 2,
-        link: "/healthcare",
+        link: "/industries/healthcare-&-pharmaceutical",
         title: "Healthcare & pharmaceutical",
         icon: (
           <svg
@@ -717,7 +717,7 @@ const nav_menu_data = [
       },
       {
         id: 3,
-        link: "/marina",
+        link: "/industries/marina",
         title: "Marina",
         icon: (
           <svg
@@ -764,7 +764,7 @@ const nav_menu_data = [
       },
       {
         id: 4,
-        link: "/marketplace",
+        link: "/industries/marketplace",
         title: "Marketplace",
         icon: (
           <svg
@@ -811,7 +811,7 @@ const nav_menu_data = [
       },
       {
         id: 5,
-        link: "/media",
+        link: "/industries/media",
         title: "Media",
         icon: (
           <svg
@@ -858,7 +858,7 @@ const nav_menu_data = [
       },
       {
         id: 6,
-        link: "/manufacturing",
+        link: "/industries/manufacturing",
         title: "Manufacturing",
         icon: (
           <svg
@@ -905,7 +905,7 @@ const nav_menu_data = [
       },
       {
         id: 7,
-        link: "/aviation",
+        link: "/industries/aviation",
         title: "Aviation",
         icon: (
           <svg
@@ -952,7 +952,7 @@ const nav_menu_data = [
       },
       {
         id: 8,
-        link: "/lms",
+        link: "/industries/lms",
         title: "LMS",
         icon: (
           <svg

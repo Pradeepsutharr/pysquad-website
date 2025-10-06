@@ -11,7 +11,7 @@ const SEO = ({
   <>
     <Head>
       <title>{pageTitle}</title>
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/favicon.ico" />
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta
         name="viewport"

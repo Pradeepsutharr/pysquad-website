@@ -1,19 +1,5 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/": [
-      "static/chunks/src_components_home_index_a1bef5e4.js",
-      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
-      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
-      "static/chunks/node_modules_next_dist_shared_lib_020d48c0._.js",
-      "static/chunks/node_modules_next_dist_client_becf32a6._.js",
-      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
-      "static/chunks/node_modules_next_743dca46._.js",
-      "static/chunks/node_modules_react-dom_82bb97c6._.js",
-      "static/chunks/node_modules_7d88f54d._.js",
-      "static/chunks/[root-of-the-server]__7c86c40b._.js",
-      "static/chunks/src_pages_index_5771e187._.js",
-      "static/chunks/src_pages_index_5d0c9eb7._.js"
-    ],
     "/_app": [
       "static/chunks/src_layout_data_nav-menu-data_20af056e.js",
       "static/chunks/src_layout_data_social-media-links_2feb36b8.js",
@@ -45,6 +31,34 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/[root-of-the-server]__c194513e._.js",
       "static/chunks/src_pages__error_5771e187._.js",
       "static/chunks/src_pages__error_b3bd0e43._.js"
+    ],
+    "/industries/logistics": [
+      "static/chunks/src_components_industries_logistics_index_jsx_5bae998a._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_f5de1318._.js",
+      "static/chunks/node_modules_next_dist_client_becf32a6._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_dynamic_b8fa0f03.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_7d88f54d._.js",
+      "static/chunks/[root-of-the-server]__8b20d7b4._.js",
+      "static/chunks/src_pages_industries_logistics_jsx_5771e187._.js",
+      "static/chunks/src_pages_industries_logistics_jsx_2534792d._.js"
+    ],
+    "/python": [
+      "static/chunks/src_components_technologies_python_index_7e561e37.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_82a36480.js",
+      "static/chunks/node_modules_next_dist_compiled_ca41998d._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_28066178._.js",
+      "static/chunks/node_modules_next_dist_client_becf32a6._.js",
+      "static/chunks/node_modules_next_dist_a3e9a08f._.js",
+      "static/chunks/node_modules_next_e3067d5b._.js",
+      "static/chunks/node_modules_react-dom_82bb97c6._.js",
+      "static/chunks/node_modules_7d88f54d._.js",
+      "static/chunks/[root-of-the-server]__8746dfdc._.js",
+      "static/chunks/src_pages_python_5771e187._.js",
+      "static/chunks/src_pages_python_c0e797e2._.js"
     ]
   },
   "devFiles": [],
