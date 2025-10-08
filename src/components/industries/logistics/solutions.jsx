@@ -20,12 +20,12 @@ function Solutions() {
           {solutions?.map((item) => (
             <div key={item.id} className="col-12 md:col-6 lg:col-4">
               <div className="content md:p-6">
-                <div className="content border-4 border-[#4A5250] p-6 rounded-2xl">
+                <div className="content text-center border-4 border-[#4A5250] p-6 min-h-44 rounded-2xl">
                   <h3 className="text-white font-medium text-xl mb-4 text-center">
                     {item.title}
                   </h3>
 
-                  <div className="flex gap-3 items-center font-light text-sm mb-4">
+                  {/* <div className="flex gap-3 items-center font-light text-sm mb-4">
                     <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -65,10 +65,10 @@ function Solutions() {
                       </svg>
                     </span>
                     <p className="text-white ">{item.problem}</p>
-                  </div>
+                  </div> */}
 
                   <div className="flex gap-3 items-center font-light text-sm">
-                    <span>
+                    {/* <span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
@@ -93,7 +93,7 @@ function Solutions() {
                           fill="#0A948A"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                     <p className="text-white  ">{item.solution}</p>
                   </div>
                 </div>

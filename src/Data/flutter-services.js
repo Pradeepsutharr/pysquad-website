@@ -37,7 +37,7 @@ export const flutter_services = [
     ),
     title: "Mobile app development",
     description:
-      "Build high-performance, native-looking apps for iOS and Android, all from a single codebase with Flutter.",
+      "Build interactive, high-performance apps for iOS and Android with a single codebase that ensures native-like performance and pixel-perfect UI.",
   },
   {
     id: "2",
@@ -102,9 +102,9 @@ export const flutter_services = [
         </defs>
       </svg>
     ),
-    title: "Cross-platform app development",
+    title: "Web Application Development",
     description:
-      "Reach a wider audience with one app that works seamlessly across different devices and platforms",
+      "Create responsive web apps that load fast and provide seamless user experiences across all browsers with Flutter’s versatile framework.",
   },
   {
     id: "3",
@@ -141,9 +141,9 @@ export const flutter_services = [
         </defs>
       </svg>
     ),
-    title: "UI/UX design",
+    title: "Desktop Application Development",
     description:
-      "Craft beautiful, user-friendly interfaces that captivate users and drive engagement.",
+      "Extend your apps to Windows, macOS, and Linux with Flutter’s expanding support for desktop platforms.",
   },
   {
     id: "4",
@@ -177,9 +177,9 @@ export const flutter_services = [
         />
       </svg>
     ),
-    title: "Performance optimization",
+    title: "UI/UX Design Integration",
     description:
-      "Ensure your app runs smoothly and efficiently on all devices.",
+      "Translate your brand’s vision into smooth, consistent app experiences using Flutter’s customizable widgets and expressive design capabilities.",
   },
   {
     id: "5",
@@ -205,9 +205,9 @@ export const flutter_services = [
         />
       </svg>
     ),
-    title: "Integration and Consulting",
+    title: "API & Backend Integration",
     description:
-      "We bridge the gap between your vision and reality, providing consulting services and seamless integration with existing systems.",
+      "Seamlessly connect your Flutter apps with APIs and backend services for robust data handling and real-time updates.",
   },
   {
     id: "6",
@@ -289,8 +289,8 @@ export const flutter_services = [
         </defs>
       </svg>
     ),
-    title: "Ongoing maintenance and support",
+    title: "Testing & Performance Optimization",
     description:
-      "Keep your app up-to-date and secure with our ongoing maintenance and support services.",
+      "Ensure your Flutter apps are stable and performant across all devices with automated testing suites and expert performance tuning.",
   },
 ];

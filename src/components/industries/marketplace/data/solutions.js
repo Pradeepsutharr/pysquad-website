@@ -1,50 +1,50 @@
 export const solutions = [
   {
     id: "1",
-    title: "Intelligent Fleet Control",
+    title: "Fragmented Seller Operations",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Provide a unified, easy-to-use platform that centralizes product listings, sales, payments, and support for every vendor.",
   },
   {
     id: "2",
-    title: "Smart Supply Chain",
+    title: "Manual Inventory & Billing",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Automate inventory, pricing updates, and billing to eliminate errors and free up resources for growth.",
   },
   {
     id: "3",
-    title: "Predictive Maintenance",
+    title: "Checkout Abandonment",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Optimize payments, checkout flows, and site speed to ensure customers complete purchases without friction.",
   },
   {
     id: "4",
-    title: "Real-Time Visibility",
+    title: "Scalability Barriers",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Leverage cloud infrastructure and support to handle high traffic, new features, and marketplace expansion.",
   },
   {
     id: "5",
-    title: "Real-Time Visibility",
+    title: "Slow Customer Support",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Integrate chatbots, ticketing, and self-service FAQs for quick responses and better customer satisfaction.",
   },
-  {
-    id: "6",
-    title: "Real-Time Visibility",
-    problem:
-      "Delays, high costs, and mismanaged operations reduce profitability",
-    solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
-  },
+  // {
+  //   id: "6",
+  //   title: "Real-Time Visibility",
+  //   problem:
+  //     "Delays, high costs, and mismanaged operations reduce profitability",
+  //   solution:
+  //     "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+  // },
 ];

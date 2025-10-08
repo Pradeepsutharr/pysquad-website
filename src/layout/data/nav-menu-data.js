@@ -619,11 +619,11 @@ const nav_menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Industries",
-    link: "",
+    link: "/industries",
     sub_menus: [
       {
         id: 1,
-        link: "/industries/logistics",
+        link: "/logistics",
         title: "Logistics",
         icon: (
           <svg
@@ -670,7 +670,7 @@ const nav_menu_data = [
       },
       {
         id: 2,
-        link: "/industries/healthcare-&-pharmaceutical",
+        link: "/healthcare-&-pharmaceutical",
         title: "Healthcare & pharmaceutical",
         icon: (
           <svg
@@ -717,7 +717,7 @@ const nav_menu_data = [
       },
       {
         id: 3,
-        link: "/industries/marina",
+        link: "/marina",
         title: "Marina",
         icon: (
           <svg
@@ -764,8 +764,8 @@ const nav_menu_data = [
       },
       {
         id: 4,
-        link: "/industries/marketplace",
-        title: "Marketplace",
+        link: "/e-commerce-&-marketplace",
+        title: "E-commerce & Marketplace",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -811,8 +811,8 @@ const nav_menu_data = [
       },
       {
         id: 5,
-        link: "/industries/media",
-        title: "Media",
+        link: "/news-media",
+        title: "New & Media",
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -858,7 +858,7 @@ const nav_menu_data = [
       },
       {
         id: 6,
-        link: "/industries/manufacturing",
+        link: "/manufacturing",
         title: "Manufacturing",
         icon: (
           <svg
@@ -905,7 +905,7 @@ const nav_menu_data = [
       },
       {
         id: 7,
-        link: "/industries/aviation",
+        link: "/aviation",
         title: "Aviation",
         icon: (
           <svg
@@ -952,7 +952,7 @@ const nav_menu_data = [
       },
       {
         id: 8,
-        link: "/industries/lms",
+        link: "/lms",
         title: "LMS",
         icon: (
           <svg

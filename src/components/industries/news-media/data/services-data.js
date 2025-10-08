@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Digital Content Management Systems",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Organize and publish articles, videos, and multimedia seamlessly across web, mobile, and broadcast platforms using modern, intuitive CMS tools.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "Real-Time Publishing & Automation",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Automate editorial workflows with instant publishing, version control, scheduled posts, and integrated approval processes.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Audience Analytics & Personalization",
+    description:
+      "Leverage real-time audience insights, engagement metrics, and AI-driven recommendations to personalize content and maximize reach.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Multichannel Distribution & OTT Support",
+    description:
+      "Deliver content to websites, mobile apps, social channels, OTT, and FAST platforms with end-to-end synchronization and scalability.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

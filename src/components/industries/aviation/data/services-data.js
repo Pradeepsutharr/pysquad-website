@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Predictive Maintenance & IoT Monitoring",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Harness real-time aircraft health data with IoT sensors and AI analytics to foresee potential issues before they arise, minimizing downtime and improving safety.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "AI-Powered Fleet Management",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Leverage intelligent algorithms to optimize flight plans, maximize aircraft utilization, and reduce operational costs through adaptive scheduling software.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Digital Twins & Virtual Simulations",
+    description:
+      "Use digital twins to simulate aircraft systems and maintenance scenarios, enabling optimized repair schedules and enhanced fleet performance.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Augmented & Virtual Reality Training",
+    description:
+      "Implement AR and VR for immersive pilot and maintenance crew training, improving skill retention and reducing errors.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

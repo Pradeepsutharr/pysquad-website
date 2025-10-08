@@ -1,50 +1,50 @@
 export const solutions = [
   {
     id: "1",
-    title: "Intelligent Fleet Control",
+    title: "Manual Berth Management",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Switch to digital berth assignments, real-time occupancy tracking, and automated check-in/out for effortless scheduling.",
   },
   {
     id: "2",
-    title: "Smart Supply Chain",
+    title: "Time-Consuming Billing",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Instant invoice creation, online payments, and accounting integration speed up cash flow and reduce errors.",
   },
   {
     id: "3",
-    title: "Predictive Maintenance",
+    title: "Limited Guest Engagement",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Full-featured guest portals empower visitors to book, pay, and request services directly from any device.",
   },
   {
     id: "4",
-    title: "Real-Time Visibility",
+    title: "Asset and Vessel Oversight",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "IoT sensors and centralized data dashboards allow preventive maintenance, remote monitoring, and instant security alerts.",
   },
   {
     id: "5",
-    title: "Real-Time Visibility",
+    title: "Security and Data Compliance",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Robust cloud solutions ensure data integrity, regulatory compliance, and secure multi-location management.",
   },
-  {
-    id: "6",
-    title: "Real-Time Visibility",
-    problem:
-      "Delays, high costs, and mismanaged operations reduce profitability",
-    solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
-  },
+  // {
+  //   id: "6",
+  //   title: "Real-Time Visibility",
+  //   problem:
+  //     "Delays, high costs, and mismanaged operations reduce profitability",
+  //   solution:
+  //     "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+  // },
 ];

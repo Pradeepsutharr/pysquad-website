@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Marina Management Software",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Centralized dashboard for managing berths, slip assignments, guest check-ins, and facility reservations with real-time updates and easy mobile access.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "Smart Dock Operations",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Automate launch scheduling, dock walk inspections, utility metering, and security patrolling to keep everything running smoothly and safely.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Integrated CRM & Guest Experience",
+    description:
+      "Track tenant preferences, communicate instantly, and offer online self-service portals for bookings, payments, or amenities.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Cloud Hosting & Data Security",
+    description:
+      "Centralized, cloud-based operations with multi-layer security protocols and disaster recovery for always-available marina management.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

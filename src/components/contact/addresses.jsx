@@ -6,7 +6,7 @@ const addresses = [
     id: "1",
     country: "Ahmedabad - India",
     address:
-      "A-703,7th Floor, Samudra Complex,Nr Hotel Klassic Gold, C G Road,Ahmedabad - 380009",
+      "A 605, Shilp Aaron, Sindhu Bhavan Road, Ahmedabad,IN 380054, India",
   },
   // {
   //   id: "2",

@@ -15,13 +15,14 @@ function AviationHero() {
       <div className="container">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">
-            Grow with Pysquad Logistics
+            Grow with Pysquad Aviation Solutions
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Soar to new heights with Pysquad’s advanced digital transformation
+            solutions tailored for aviation. Enhance operational efficiency,
+            improve safety, and deliver exceptional passenger experiences with
+            cutting-edge technologies designed for airlines, airports, and
+            aerospace providers.
           </p>
         </div>
         <div className="col-12 text-center ">

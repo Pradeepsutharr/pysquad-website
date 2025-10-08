@@ -26,16 +26,16 @@ function Services() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-between items-center mt-6">
+        <div className="flex flex-wrap justify-center items-start gap-y-10 mt-6">
           {services?.map((item) => (
             <div key={item.id} className="col-12 md:col-6 lg:col-3">
-              <div className="content">
+              <div className="content mx-auto md:max-w-[90%] w-full">
                 <span>{item.icon}</span>
 
                 <h3 className="text-white font-medium text-lg my-4">
                   {item.title}
                 </h3>
-                <p className="text-white font-light">{item.description}</p>
+                <p className="text-white font-light ">{item.description}</p>
               </div>
             </div>
           ))}

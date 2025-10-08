@@ -5,17 +5,10 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   bold: ['"bold"', "sans-serif"],
-      //   regular: ['"normal"', "sans-serif"],
-      //   medium: ['"medium"', "sans-serif"],
-      // },
-
       colors: {
         primary: "#0A948A",
         // primary: "#07C1AF",

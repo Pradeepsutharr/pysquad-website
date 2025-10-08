@@ -133,9 +133,9 @@ export const flutter_expertise = [
         </defs>
       </svg>
     ),
-    title: "Unleash Versatility",
+    title: "Rapid Development",
     description:
-      "From web development to AI and automation, Python is your jack-of-all-trades. We craft solutions that tackle any challenge.",
+      "Accelerate app delivery with reusable UI components and hot reload for instant feedback during development.",
   },
   {
     id: "2",
@@ -256,9 +256,9 @@ export const flutter_expertise = [
         </defs>
       </svg>
     ),
-    title: "Simplicity is Key",
+    title: "Cross-Platform Efficiency",
     description:
-      "Python's clear syntax makes development a breeze. Focus on your vision, while we handle the coding complexities.",
+      "Reach wider audiences cost-effectively with one codebase spanning mobile, web, and desktop.",
   },
   {
     id: "3",
@@ -338,9 +338,9 @@ export const flutter_expertise = [
         </defs>
       </svg>
     ),
-    title: "A World of Tools",
+    title: "Rich UI & Customization",
     description:
-      "Leverage Python's vast ecosystem of libraries and frameworks. We choose the right tools to build rock-solid solutions.",
+      "Create pixel-perfect, highly customized interfaces that deliver outstanding user engagement.",
   },
   {
     id: "4",
@@ -371,106 +371,106 @@ export const flutter_expertise = [
         </defs>
       </svg>
     ),
-    title: "Built to Scale",
+    title: "Robust Performance & Scalability",
     description:
-      "Your growth is our priority. We architect Python applications that adapt and thrive in any environment.",
+      "Build apps that perform smoothly under heavy usage and scale effortlessly with your business growth.",
   },
-  {
-    id: "5",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="53"
-        height="60"
-        viewBox="0 0 53 60"
-        fill="none"
-      >
-        <path
-          d="M14.8955 51.3563C11.3986 49.9164 8.313 47.6536 5.63884 44.9795L0.290527 54.2362L6.66736 51.562C7.90159 50.9449 9.13581 51.7677 9.34152 53.0019L9.95863 59.9959L14.8955 51.3563Z"
-          fill="url(#paint0_linear_620_1792)"
-        />
-        <path
-          d="M37.9337 51.3563L42.8706 59.9959L43.6934 53.0019C43.6934 51.7677 44.9276 50.9449 46.1619 51.562L52.5387 54.2362L47.1904 44.9795C44.5162 47.6536 41.4307 49.9164 37.9337 51.3563Z"
-          fill="url(#paint1_linear_620_1792)"
-        />
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M26.4144 0.75293C39.9909 0.75293 51.0989 11.861 51.0989 25.4374C51.0989 39.0139 39.9909 50.122 26.4144 50.122C12.8379 50.122 1.7299 39.0139 1.7299 25.4374C1.7299 11.861 12.8379 0.75293 26.4144 0.75293ZM27.0315 14.9465C26.8258 14.3294 26.003 14.3294 25.7973 14.9465L23.7403 21.3234C23.5346 21.9405 22.9174 22.5576 22.3003 22.3519H15.5121C14.895 22.3519 14.6893 23.1747 15.1007 23.3804L20.6547 27.4945C21.2718 27.9059 21.4775 28.523 21.2718 29.1401L19.2148 35.7227C19.0091 36.1341 19.6262 36.5455 20.0376 36.3398L25.5916 32.2257C26.003 31.8143 26.8258 31.8143 27.4429 32.2257L32.7913 36.3398C33.2027 36.5455 33.8198 36.1341 33.6141 35.7227L31.557 29.1401C31.3513 28.523 31.557 27.9059 32.1741 27.4945L37.7282 23.3804C38.1396 23.1747 37.9339 22.3519 37.3167 22.3519H30.5285C29.9114 22.5576 29.2943 21.9405 29.0886 21.3234L27.0315 14.9465Z"
-          fill="url(#paint2_linear_620_1792)"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_620_1792"
-            x1="39.7148"
-            y1="7.80565"
-            x2="12.3504"
-            y2="45.1356"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-          <linearGradient
-            id="paint1_linear_620_1792"
-            x1="39.7148"
-            y1="7.80565"
-            x2="12.3504"
-            y2="45.1356"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-          <linearGradient
-            id="paint2_linear_620_1792"
-            x1="39.7148"
-            y1="7.80565"
-            x2="12.3504"
-            y2="45.1356"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Community Champions",
-    description:
-      "Get access to our network of Python experts and tap into the vibrant community for ongoing support.",
-  },
-  {
-    id: "6",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="60"
-        height="45"
-        viewBox="0 0 60 45"
-        fill="none"
-      >
-        <path
-          d="M25.5514 32.5053C26.5434 33.4616 27.8383 33.9007 29.4361 33.8224C31.0383 33.742 32.2202 33.1972 32.9818 32.1879L50.2822 8.94991L26.0485 25.5041C24.9599 26.2107 24.3465 27.3057 24.2082 28.7889C24.0721 30.272 24.5209 31.5119 25.5547 32.5085M6.9243 44.5908C6.30976 44.5908 5.74789 44.4417 5.23871 44.1433C4.72952 43.8429 4.29934 43.4345 3.94818 42.9183C2.64887 40.758 1.6678 38.474 1.00498 36.0662C0.342154 33.6605 0.0107422 31.2125 0.0107422 28.7222C0.0107422 24.7804 0.789889 21.0714 2.34818 17.5951C3.90648 14.1188 6.02115 11.0964 8.69219 8.5278C11.3588 5.95285 14.4941 3.91426 18.0979 2.41204C21.7039 0.909806 25.5514 0.158691 29.6403 0.158691C33.7182 0.158691 37.5426 0.897111 41.1135 2.37395C44.6844 3.85079 47.8141 5.86187 50.5027 8.4072C53.1913 10.9525 55.3181 13.9327 56.883 17.3476C58.4478 20.7646 59.238 24.4377 59.2533 28.3667C59.2643 30.9904 58.9417 33.5399 58.2854 36.0154C57.627 38.4846 56.636 40.867 55.3126 43.1626C55.0053 43.6789 54.5861 44.046 54.055 44.2639C53.526 44.4819 52.9532 44.5908 52.3365 44.5908H6.9243Z"
-          fill="url(#paint0_linear_620_1791)"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_620_1791"
-            x1="43.9139"
-            y1="10.2088"
-            x2="8.47401"
-            y2="40.8881"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Reliability, and Speed",
-    description:
-      "python language is efficient, reliable, and much faster than most modern languages.",
-  },
+  // {
+  //   id: "5",
+  //   icon: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       width="53"
+  //       height="60"
+  //       viewBox="0 0 53 60"
+  //       fill="none"
+  //     >
+  //       <path
+  //         d="M14.8955 51.3563C11.3986 49.9164 8.313 47.6536 5.63884 44.9795L0.290527 54.2362L6.66736 51.562C7.90159 50.9449 9.13581 51.7677 9.34152 53.0019L9.95863 59.9959L14.8955 51.3563Z"
+  //         fill="url(#paint0_linear_620_1792)"
+  //       />
+  //       <path
+  //         d="M37.9337 51.3563L42.8706 59.9959L43.6934 53.0019C43.6934 51.7677 44.9276 50.9449 46.1619 51.562L52.5387 54.2362L47.1904 44.9795C44.5162 47.6536 41.4307 49.9164 37.9337 51.3563Z"
+  //         fill="url(#paint1_linear_620_1792)"
+  //       />
+  //       <path
+  //         fillRule="evenodd"
+  //         clipRule="evenodd"
+  //         d="M26.4144 0.75293C39.9909 0.75293 51.0989 11.861 51.0989 25.4374C51.0989 39.0139 39.9909 50.122 26.4144 50.122C12.8379 50.122 1.7299 39.0139 1.7299 25.4374C1.7299 11.861 12.8379 0.75293 26.4144 0.75293ZM27.0315 14.9465C26.8258 14.3294 26.003 14.3294 25.7973 14.9465L23.7403 21.3234C23.5346 21.9405 22.9174 22.5576 22.3003 22.3519H15.5121C14.895 22.3519 14.6893 23.1747 15.1007 23.3804L20.6547 27.4945C21.2718 27.9059 21.4775 28.523 21.2718 29.1401L19.2148 35.7227C19.0091 36.1341 19.6262 36.5455 20.0376 36.3398L25.5916 32.2257C26.003 31.8143 26.8258 31.8143 27.4429 32.2257L32.7913 36.3398C33.2027 36.5455 33.8198 36.1341 33.6141 35.7227L31.557 29.1401C31.3513 28.523 31.557 27.9059 32.1741 27.4945L37.7282 23.3804C38.1396 23.1747 37.9339 22.3519 37.3167 22.3519H30.5285C29.9114 22.5576 29.2943 21.9405 29.0886 21.3234L27.0315 14.9465Z"
+  //         fill="url(#paint2_linear_620_1792)"
+  //       />
+  //       <defs>
+  //         <linearGradient
+  //           id="paint0_linear_620_1792"
+  //           x1="39.7148"
+  //           y1="7.80565"
+  //           x2="12.3504"
+  //           y2="45.1356"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //         <linearGradient
+  //           id="paint1_linear_620_1792"
+  //           x1="39.7148"
+  //           y1="7.80565"
+  //           x2="12.3504"
+  //           y2="45.1356"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //         <linearGradient
+  //           id="paint2_linear_620_1792"
+  //           x1="39.7148"
+  //           y1="7.80565"
+  //           x2="12.3504"
+  //           y2="45.1356"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //       </defs>
+  //     </svg>
+  //   ),
+  //   title: "Community Champions",
+  //   description:
+  //     "Get access to our network of Python experts and tap into the vibrant community for ongoing support.",
+  // },
+  // {
+  //   id: "6",
+  //   icon: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       width="60"
+  //       height="45"
+  //       viewBox="0 0 60 45"
+  //       fill="none"
+  //     >
+  //       <path
+  //         d="M25.5514 32.5053C26.5434 33.4616 27.8383 33.9007 29.4361 33.8224C31.0383 33.742 32.2202 33.1972 32.9818 32.1879L50.2822 8.94991L26.0485 25.5041C24.9599 26.2107 24.3465 27.3057 24.2082 28.7889C24.0721 30.272 24.5209 31.5119 25.5547 32.5085M6.9243 44.5908C6.30976 44.5908 5.74789 44.4417 5.23871 44.1433C4.72952 43.8429 4.29934 43.4345 3.94818 42.9183C2.64887 40.758 1.6678 38.474 1.00498 36.0662C0.342154 33.6605 0.0107422 31.2125 0.0107422 28.7222C0.0107422 24.7804 0.789889 21.0714 2.34818 17.5951C3.90648 14.1188 6.02115 11.0964 8.69219 8.5278C11.3588 5.95285 14.4941 3.91426 18.0979 2.41204C21.7039 0.909806 25.5514 0.158691 29.6403 0.158691C33.7182 0.158691 37.5426 0.897111 41.1135 2.37395C44.6844 3.85079 47.8141 5.86187 50.5027 8.4072C53.1913 10.9525 55.3181 13.9327 56.883 17.3476C58.4478 20.7646 59.238 24.4377 59.2533 28.3667C59.2643 30.9904 58.9417 33.5399 58.2854 36.0154C57.627 38.4846 56.636 40.867 55.3126 43.1626C55.0053 43.6789 54.5861 44.046 54.055 44.2639C53.526 44.4819 52.9532 44.5908 52.3365 44.5908H6.9243Z"
+  //         fill="url(#paint0_linear_620_1791)"
+  //       />
+  //       <defs>
+  //         <linearGradient
+  //           id="paint0_linear_620_1791"
+  //           x1="43.9139"
+  //           y1="10.2088"
+  //           x2="8.47401"
+  //           y2="40.8881"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //       </defs>
+  //     </svg>
+  //   ),
+  //   title: "Reliability, and Speed",
+  //   description:
+  //     "python language is efficient, reliable, and much faster than most modern languages.",
+  // },
 ];

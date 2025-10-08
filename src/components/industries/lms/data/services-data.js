@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Adaptive Learning Platforms",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Personalize content pacing and pathways with AI-driven course recommendations, enhancing learner engagement and retention.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "Advanced Analytics & Reporting",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Gain insights into learner progress, course effectiveness, and training ROI with detailed, customizable dashboards.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Compliance & Certification Management",
+    description:
+      "Streamline mandatory training tracking, certifications, and regulatory compliance with automated workflows and alerts.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Mobile & Microlearning Support",
+    description:
+      "Enable anytime, anywhere learning with mobile-friendly access and bite-sized modules that fit busy schedules and varied learning styles.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,7 +1,6 @@
 import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 import React from "react";
-import Stats from "../common/stats";
 
 function HealthcareHero() {
   return (
@@ -16,13 +15,13 @@ function HealthcareHero() {
       <div className="container">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">
-            Grow with Pysquad Logistics
+            Grow with Pysquad Healthcare Solutions
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Empower your healthcare and pharmaceutical operations with Pysquad
+            IT solutions. Enhance patient care, safeguard data, and optimize
+            your clinical workflows with smart platforms tailored for providers,
+            pharma companies, and healthcare networks.
           </p>
         </div>
         <div className="col-12 text-center ">

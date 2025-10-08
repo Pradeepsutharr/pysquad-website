@@ -1,50 +1,50 @@
 export const solutions = [
   {
     id: "1",
-    title: "Intelligent Fleet Control",
+    title: "Low Learner Engagement",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Interactive content, gamification, and social tools create a motivating learning environment.",
   },
   {
     id: "2",
-    title: "Smart Supply Chain",
+    title: "Training Accessibility Limits",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Mobile and microlearning ensure learners can study anytime, anywhere.",
   },
   {
     id: "3",
-    title: "Predictive Maintenance",
+    title: "Complex Compliance Needs",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Automated certification tracking and reporting ensure timely adherence to regulations.",
   },
   {
     id: "4",
-    title: "Real-Time Visibility",
+    title: "Lack of Insight Into Learning Impact",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Advanced analytics provide actionable data to refine programs and boost outcomes.",
   },
   {
     id: "5",
-    title: "Real-Time Visibility",
+    title: "Scaling Challenges",
     problem:
       "Delays, high costs, and mismanaged operations reduce profitability",
     solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+      "Cloud-based LMS offers seamless access for growing learner populations and multiple locations.",
   },
-  {
-    id: "6",
-    title: "Real-Time Visibility",
-    problem:
-      "Delays, high costs, and mismanaged operations reduce profitability",
-    solution:
-      "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
-  },
+  // {
+  //   id: "6",
+  //   title: "Real-Time Visibility",
+  //   problem:
+  //     "Delays, high costs, and mismanaged operations reduce profitability",
+  //   solution:
+  //     "Pysquad creates custom supply chain workflows to streamline operations and reduce costs.",
+  // },
 ];

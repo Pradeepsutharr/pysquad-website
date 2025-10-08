@@ -1,7 +1,6 @@
 import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 import React from "react";
-import Stats from "../common/stats";
 
 function LmsHero() {
   return (
@@ -16,13 +15,13 @@ function LmsHero() {
       <div className="container">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">
-            Grow with Pysquad Logistics
+            Grow with Pysquad Learning Management Solutions
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Empower education and training with Pysquad’s innovative LMS
+            platforms. Deliver personalized, engaging learning experiences that
+            streamline administration, boost skill development, and increase
+            learner success across academic and corporate sectors.
           </p>
         </div>
         <div className="col-12 text-center ">

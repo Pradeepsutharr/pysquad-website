@@ -1,7 +1,6 @@
 import CtaButton from "@/ui/cta-btn";
 import Image from "next/image";
 import React from "react";
-import Stats from "../common/stats";
 
 function LogisticsHeroSec() {
   return (
@@ -19,10 +18,10 @@ function LogisticsHeroSec() {
             Grow with Pysquad Logistics
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Scale faster with Pysquad Logistics and truly future-ready
+            solutions. Lower operational costs, streamline shipments, and
+            enhance visibility. IT-first supply chain, smart inventory systems,
+            managed services, drive business to new horizons.
           </p>
         </div>
         <div className="col-12 text-center ">

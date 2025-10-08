@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Custom Marketplace Development",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Build flexible, feature-rich B2B and B2C marketplaces with secure user authentication, multi-vendor support, and scalable architecture.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "Order & Inventory Management",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Automate stock tracking, order processing, and vendor dashboard updates to reduce errors and speed up fulfillment.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Integrated Payments & Checkout",
+    description:
+      "Configure secure, PCI-compliant payments, multi-currency support, and frictionless checkout for higher conversions.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Personalization & AI Tools",
+    description:
+      "Use real-time recommendations, personalized marketing, and AI-powered search to delight shoppers and boost loyalty.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

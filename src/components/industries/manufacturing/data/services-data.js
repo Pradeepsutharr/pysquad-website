@@ -1,9 +1,9 @@
 export const services = [
   {
     id: "1",
-    title: "Fleet Management Systems",
+    title: "Industrial Internet of Things",
     description:
-      "Real-time GPS tracking, maintenance logs, and driver analytics.",
+      "Connect machinery and sensors on your factory floor for real-time monitoring, predictive maintenance, and asset optimization that reduces unexpected downtime.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +61,9 @@ export const services = [
   },
   {
     id: "2",
-    title: "Warehouse Automation Software",
+    title: "AI & Machine Learning",
     description:
-      "Streamline inventory, order fulfillment, and stock visibility.",
+      "Leverage AI for demand forecasting, quality inspection via computer vision, and process automation to improve efficiency and reduce waste.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -121,8 +121,9 @@ export const services = [
   },
   {
     id: "3",
-    title: "Transportation & Route Optimization",
-    description: "Save fuel and time with AI-driven route planning.",
+    title: "Robotics & Automation",
+    description:
+      "Automate repetitive tasks and assembly lines with advanced robotics, increasing precision, boosting productivity, and enhancing worker safety.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +181,9 @@ export const services = [
   },
   {
     id: "4",
-    title: "Data Analytics & Reporting",
-    description: "Make smarter logistics decisions with actionable insights.",
+    title: "Advanced Analytics & Digital Twins",
+    description:
+      "Use big data analytics and virtual digital twins to simulate, test, and optimize manufacturing processes before physical deployment.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -133,9 +133,9 @@ export const fastApi_expertise = [
         </defs>
       </svg>
     ),
-    title: "Unleash Versatility",
+    title: "Blazing Speed",
     description:
-      "From web development to AI and automation, Python is your jack-of-all-trades. We craft solutions that tackle any challenge.",
+      "Asynchronous code and lightweight architecture guarantee top-tier performance and rapid responses under high load.",
   },
   {
     id: "2",
@@ -256,92 +256,92 @@ export const fastApi_expertise = [
         </defs>
       </svg>
     ),
-    title: "Simplicity is Key",
+    title: "Future-Proof Python Standards",
     description:
-      "Python's clear syntax makes development a breeze. Focus on your vision, while we handle the coding complexities.",
+      "Type hinting, modular code, and full async support keep projects maintainable and ready for future upgrades.",
   },
-  {
-    id: "3",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="48"
-        height="47"
-        viewBox="0 0 48 47"
-        fill="none"
-      >
-        <path
-          d="M0.464591 8.24533C0.464591 4.15546 3.78008 0.839964 7.86995 0.839964H13.8626C17.9525 0.839964 21.268 4.15546 21.268 8.24532V13.7427C21.268 17.8325 17.9525 21.148 13.8626 21.148H7.86996C3.78009 21.148 0.464591 17.8325 0.464591 13.7427V8.24533Z"
-          fill="url(#paint0_linear_620_1789)"
-          fillOpacity="0.76"
-        />
-        <path
-          d="M26.2614 8.24521C26.2614 4.15534 29.5769 0.839844 33.6667 0.839844H39.6594C43.7492 0.839844 47.0647 4.15533 47.0647 8.2452V13.7425C47.0647 17.8324 43.7493 21.1479 39.6594 21.1479H33.6667C29.5769 21.1479 26.2614 17.8324 26.2614 13.7425V8.24521Z"
-          fill="url(#paint1_linear_620_1789)"
-          fillOpacity="0.76"
-        />
-        <path
-          d="M26.2614 33.4269C26.2614 29.3371 29.5769 26.0216 33.6667 26.0216H39.6594C43.7492 26.0216 47.0647 29.3371 47.0647 33.4269V38.9243C47.0647 43.0141 43.7493 46.3296 39.6594 46.3296H33.6667C29.5769 46.3296 26.2614 43.0141 26.2614 38.9243V33.4269Z"
-          fill="url(#paint2_linear_620_1789)"
-          fillOpacity="0.76"
-        />
-        <path
-          d="M0.464355 33.4269C0.464355 29.3371 3.77985 26.0216 7.86971 26.0216H13.8624C17.9522 26.0216 21.2677 29.3371 21.2677 33.4269V38.9243C21.2677 43.0141 17.9522 46.3296 13.8624 46.3296H7.86972C3.77986 46.3296 0.464355 43.0141 0.464355 38.9243V33.4269Z"
-          fill="url(#paint3_linear_620_1789)"
-          fillOpacity="0.76"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_620_1789"
-            x1="47"
-            y1="0.999997"
-            x2="17.9998"
-            y2="31.4998"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-          <linearGradient
-            id="paint1_linear_620_1789"
-            x1="47"
-            y1="0.999997"
-            x2="17.9998"
-            y2="31.4998"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-          <linearGradient
-            id="paint2_linear_620_1789"
-            x1="47"
-            y1="0.999997"
-            x2="17.9998"
-            y2="31.4998"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-          <linearGradient
-            id="paint3_linear_620_1789"
-            x1="47"
-            y1="0.999997"
-            x2="17.9998"
-            y2="31.4998"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Ironclad Security",
-    description:
-      "Leverage Python's vast ecosystem of libraries and frameworks. We choose the right tools to build rock-solid solutions.",
-  },
+  // {
+  //   id: "3",
+  //   icon: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       width="48"
+  //       height="47"
+  //       viewBox="0 0 48 47"
+  //       fill="none"
+  //     >
+  //       <path
+  //         d="M0.464591 8.24533C0.464591 4.15546 3.78008 0.839964 7.86995 0.839964H13.8626C17.9525 0.839964 21.268 4.15546 21.268 8.24532V13.7427C21.268 17.8325 17.9525 21.148 13.8626 21.148H7.86996C3.78009 21.148 0.464591 17.8325 0.464591 13.7427V8.24533Z"
+  //         fill="url(#paint0_linear_620_1789)"
+  //         fillOpacity="0.76"
+  //       />
+  //       <path
+  //         d="M26.2614 8.24521C26.2614 4.15534 29.5769 0.839844 33.6667 0.839844H39.6594C43.7492 0.839844 47.0647 4.15533 47.0647 8.2452V13.7425C47.0647 17.8324 43.7493 21.1479 39.6594 21.1479H33.6667C29.5769 21.1479 26.2614 17.8324 26.2614 13.7425V8.24521Z"
+  //         fill="url(#paint1_linear_620_1789)"
+  //         fillOpacity="0.76"
+  //       />
+  //       <path
+  //         d="M26.2614 33.4269C26.2614 29.3371 29.5769 26.0216 33.6667 26.0216H39.6594C43.7492 26.0216 47.0647 29.3371 47.0647 33.4269V38.9243C47.0647 43.0141 43.7493 46.3296 39.6594 46.3296H33.6667C29.5769 46.3296 26.2614 43.0141 26.2614 38.9243V33.4269Z"
+  //         fill="url(#paint2_linear_620_1789)"
+  //         fillOpacity="0.76"
+  //       />
+  //       <path
+  //         d="M0.464355 33.4269C0.464355 29.3371 3.77985 26.0216 7.86971 26.0216H13.8624C17.9522 26.0216 21.2677 29.3371 21.2677 33.4269V38.9243C21.2677 43.0141 17.9522 46.3296 13.8624 46.3296H7.86972C3.77986 46.3296 0.464355 43.0141 0.464355 38.9243V33.4269Z"
+  //         fill="url(#paint3_linear_620_1789)"
+  //         fillOpacity="0.76"
+  //       />
+  //       <defs>
+  //         <linearGradient
+  //           id="paint0_linear_620_1789"
+  //           x1="47"
+  //           y1="0.999997"
+  //           x2="17.9998"
+  //           y2="31.4998"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //         <linearGradient
+  //           id="paint1_linear_620_1789"
+  //           x1="47"
+  //           y1="0.999997"
+  //           x2="17.9998"
+  //           y2="31.4998"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //         <linearGradient
+  //           id="paint2_linear_620_1789"
+  //           x1="47"
+  //           y1="0.999997"
+  //           x2="17.9998"
+  //           y2="31.4998"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //         <linearGradient
+  //           id="paint3_linear_620_1789"
+  //           x1="47"
+  //           y1="0.999997"
+  //           x2="17.9998"
+  //           y2="31.4998"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //       </defs>
+  //     </svg>
+  //   ),
+  //   title: "Developer Productivity",
+  //   description:
+  //     "Automatic docs, robust validation, and dependency injection streamline every phase from prototyping to production.",
+  // },
   {
     id: "4",
     icon: (
@@ -371,9 +371,9 @@ export const fastApi_expertise = [
         </defs>
       </svg>
     ),
-    title: "A World of Tools",
+    title: "Scalable by Design",
     description:
-      "Your growth is our priority. We architect Python applications that adapt and thrive in any environment.",
+      "Easily integrate load balancing and modularize services for high-growth applications and large user bases.",
   },
   {
     id: "5",
@@ -436,41 +436,41 @@ export const fastApi_expertise = [
         </defs>
       </svg>
     ),
-    title: "Community Champions",
+    title: "Proven Security",
     description:
-      "Get access to our network of Python experts and tap into the vibrant community for ongoing support.",
+      "Integrated support for industry-standard authentication and authorization protocols ensures ironclad protection.",
   },
-  {
-    id: "6",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="60"
-        height="45"
-        viewBox="0 0 60 45"
-        fill="none"
-      >
-        <path
-          d="M25.5514 32.5053C26.5434 33.4616 27.8383 33.9007 29.4361 33.8224C31.0383 33.742 32.2202 33.1972 32.9818 32.1879L50.2822 8.94991L26.0485 25.5041C24.9599 26.2107 24.3465 27.3057 24.2082 28.7889C24.0721 30.272 24.5209 31.5119 25.5547 32.5085M6.9243 44.5908C6.30976 44.5908 5.74789 44.4417 5.23871 44.1433C4.72952 43.8429 4.29934 43.4345 3.94818 42.9183C2.64887 40.758 1.6678 38.474 1.00498 36.0662C0.342154 33.6605 0.0107422 31.2125 0.0107422 28.7222C0.0107422 24.7804 0.789889 21.0714 2.34818 17.5951C3.90648 14.1188 6.02115 11.0964 8.69219 8.5278C11.3588 5.95285 14.4941 3.91426 18.0979 2.41204C21.7039 0.909806 25.5514 0.158691 29.6403 0.158691C33.7182 0.158691 37.5426 0.897111 41.1135 2.37395C44.6844 3.85079 47.8141 5.86187 50.5027 8.4072C53.1913 10.9525 55.3181 13.9327 56.883 17.3476C58.4478 20.7646 59.238 24.4377 59.2533 28.3667C59.2643 30.9904 58.9417 33.5399 58.2854 36.0154C57.627 38.4846 56.636 40.867 55.3126 43.1626C55.0053 43.6789 54.5861 44.046 54.055 44.2639C53.526 44.4819 52.9532 44.5908 52.3365 44.5908H6.9243Z"
-          fill="url(#paint0_linear_620_1791)"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_620_1791"
-            x1="43.9139"
-            y1="10.2088"
-            x2="8.47401"
-            y2="40.8881"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#0A948A" />
-            <stop offset="1" stopColor="#2EBCB8" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Reliability, and Speed",
-    description:
-      "python language is efficient, reliable, and much faster than most modern languages.",
-  },
+  // {
+  //   id: "6",
+  //   icon: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       width="60"
+  //       height="45"
+  //       viewBox="0 0 60 45"
+  //       fill="none"
+  //     >
+  //       <path
+  //         d="M25.5514 32.5053C26.5434 33.4616 27.8383 33.9007 29.4361 33.8224C31.0383 33.742 32.2202 33.1972 32.9818 32.1879L50.2822 8.94991L26.0485 25.5041C24.9599 26.2107 24.3465 27.3057 24.2082 28.7889C24.0721 30.272 24.5209 31.5119 25.5547 32.5085M6.9243 44.5908C6.30976 44.5908 5.74789 44.4417 5.23871 44.1433C4.72952 43.8429 4.29934 43.4345 3.94818 42.9183C2.64887 40.758 1.6678 38.474 1.00498 36.0662C0.342154 33.6605 0.0107422 31.2125 0.0107422 28.7222C0.0107422 24.7804 0.789889 21.0714 2.34818 17.5951C3.90648 14.1188 6.02115 11.0964 8.69219 8.5278C11.3588 5.95285 14.4941 3.91426 18.0979 2.41204C21.7039 0.909806 25.5514 0.158691 29.6403 0.158691C33.7182 0.158691 37.5426 0.897111 41.1135 2.37395C44.6844 3.85079 47.8141 5.86187 50.5027 8.4072C53.1913 10.9525 55.3181 13.9327 56.883 17.3476C58.4478 20.7646 59.238 24.4377 59.2533 28.3667C59.2643 30.9904 58.9417 33.5399 58.2854 36.0154C57.627 38.4846 56.636 40.867 55.3126 43.1626C55.0053 43.6789 54.5861 44.046 54.055 44.2639C53.526 44.4819 52.9532 44.5908 52.3365 44.5908H6.9243Z"
+  //         fill="url(#paint0_linear_620_1791)"
+  //       />
+  //       <defs>
+  //         <linearGradient
+  //           id="paint0_linear_620_1791"
+  //           x1="43.9139"
+  //           y1="10.2088"
+  //           x2="8.47401"
+  //           y2="40.8881"
+  //           gradientUnits="userSpaceOnUse"
+  //         >
+  //           <stop stopColor="#0A948A" />
+  //           <stop offset="1" stopColor="#2EBCB8" />
+  //         </linearGradient>
+  //       </defs>
+  //     </svg>
+  //   ),
+  //   title: "Reliability, and Speed",
+  //   description:
+  //     "python language is efficient, reliable, and much faster than most modern languages.",
+  // },
 ];

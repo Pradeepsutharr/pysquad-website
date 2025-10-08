@@ -16,13 +16,13 @@ function MediaHero() {
       <div className="container">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">
-            Grow with Pysquad Logistics
+            Grow with Pysquad News & Media Solutions
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Transform how stories are created, delivered, and monetized with
+            Pysquad’s digital solutions for news and media. Streamline editorial
+            workflows, maximize audience engagement, and deliver real-time
+            content across every screen and channel.
           </p>
         </div>
         <div className="col-12 text-center ">

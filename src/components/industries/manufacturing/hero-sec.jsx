@@ -16,13 +16,14 @@ function ManufacturingHero() {
       <div className="container">
         <div className="text-center lg:col-9 col-12 mx-auto">
           <h1 className=" text-3xl text-textPrimary mb-4 lg:text-5xl font-bold lg:leading-snug capitalize">
-            Grow with Pysquad Logistics
+            Grow with Pysquad Manufacturing Solutions
           </h1>
           <p className="text-textPrimary my-6">
-            Grow with Pysquad Logistics and enjoy faster deliveries, lower
-            operational costs, and complete visibility of your supply chain.
-            Smart tools and seamless management empower your business to scale
-            with confidence
+            Revolutionize your manufacturing processes with Pysquad’s
+            cutting-edge digital transformation technologies. Enhance
+            productivity, reduce downtime, and increase product quality through
+            smart automation and data-driven insights tailored for modern
+            manufacturers.
           </p>
         </div>
         <div className="col-12 text-center ">

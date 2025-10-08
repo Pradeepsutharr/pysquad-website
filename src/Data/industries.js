@@ -55,6 +55,7 @@ export const industries = [
       </svg>
     ),
     title: "Logistic Solutions",
+    link: "/logistics",
     description:
       "Our logistic solutions help businesses streamline their supply chain management and logistics operations, improving efficiency and reducing costs.",
   },
@@ -114,6 +115,7 @@ export const industries = [
       </svg>
     ),
     title: "Health Care & Pharmaceutical",
+    link: "/healthcare-&-pharmaceutical",
     description:
       "We offer a range of health care & Pharmaceutical solutions, including telemedicine, patient portals, and electronic health records.",
   },
@@ -173,6 +175,7 @@ export const industries = [
       </svg>
     ),
     title: "Marina",
+    link: "/marina",
     description:
       "We provide hospitality management solutions to help businesses manage their reservations, guest profiles, and other operations.",
   },
@@ -232,6 +235,7 @@ export const industries = [
       </svg>
     ),
     title: "E-Commerce and Marketplace",
+    link: "/e-commerce-&-marketplace",
     description:
       "We provide comprehensive e-commerce and marketplace solutions to help businesses of all sizes sell their products and services online.",
   },
@@ -291,6 +295,7 @@ export const industries = [
       </svg>
     ),
     title: "Media Industries",
+    link: "/news-media",
     description:
       "We provide customised solutions for media companies, including content management, video and audio streaming, and digital asset management.",
   },
@@ -350,8 +355,9 @@ export const industries = [
       </svg>
     ),
     title: "Manufacturing",
+    link: "/manufacturing",
     description:
-      "PySquad Informatics provides customised manufacturing services, including inventory management, quality control, and more.",
+      "Digitize your manufacturing process with PySquad’s smart factory solutions. From inventory management to predictive analytics, we help you achieve operational excellence.",
   },
   {
     icon: (
@@ -409,8 +415,9 @@ export const industries = [
       </svg>
     ),
     title: "Aviation",
+    link: "/aviation",
     description:
-      "PySquad Informatics provides customised manufacturing services, including inventory management, quality control, and more.",
+      "Transform airline and airport operations with technology built for the skies. From crew scheduling to predictive maintenance, PySquad delivers powerful aviation software solutions.",
   },
   {
     icon: (
@@ -468,7 +475,8 @@ export const industries = [
       </svg>
     ),
     title: "LMS",
+    link: "/lms",
     description:
-      "PySquad Informatics provides customised manufacturing services, including inventory management, quality control, and more.",
+      "Empower learning experiences with PySquad’s digital education solutions. From custom LMS platforms to AI-driven assessments, we build tools that make learning engaging and measurable.",
   },
 ];
