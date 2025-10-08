@@ -8,15 +8,15 @@ function Django() {
   return (
     <>
       <SEO
-        ogTitle={"Django Web Development Services"}
-        ogUrl={"https://pysquad.com/django"}
-        pageTitle={"Django Web Development Services"}
+        pageTitle={"Django Web Development Services | Pysquad"}
         pageDescription={
-          "We build scalable, secure, and dynamic web applications using the power of Python and Django."
+          "We build scalable, secure, and dynamic web applications using the power of Python and Django. Build robust, future-ready applications with Django and Pysquad. From secure APIs to dynamic web platforms, trust our Django experts for scalable, maintainable backend solutions."
         }
         keywords={
-          "Django, Django development, Django REST API, Django CMS, Wagtail, Saleor, Django Company"
+          "Django, Django development, Django REST API, Django CMS, Wagtail, Saleor, Django Company, Django consulting, Django automation"
         }
+        ogTitle={"Django Web Apps by Pysquad"}
+        ogUrl={"https://pysquad.com/django"}
       />
       <DJangoPage />
     </>

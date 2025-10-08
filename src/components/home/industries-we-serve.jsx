@@ -79,9 +79,9 @@ function IndustriesWeServe() {
                       <div className="absolute left-0 right-0 bottom-6">
                         <Link
                           href={item.link}
-                          className="py-1 px-4 inline-block text-textSecondary hover:text-primary border border-textSecondary hover:border-primary duration-200 rounded-full "
+                          className="py-1 px-4 inline-block font-medium text-textSecondary hover:text-primary border border-textSecondary hover:border-primary duration-200 rounded-full "
                         >
-                          Read more
+                          Read more about {item.title.split(" ")[0]}
                         </Link>
                       </div>
                     </div>
@@ -91,29 +91,6 @@ function IndustriesWeServe() {
             ))}
           </Swiper>
         </div>
-        {/* <div className="flex flex-wrap justify-between ">
-          {industries.map((item, index) => (
-            <div key={index} className="col-12 md:col-3 ps-0">
-              <div className="  bg-white rounded-lg shadow-sm p-6 border border-gray-200 flex flex-col items-center text-center hover:shadow-lg transition-shadow industry-card">
-                <div className="content">
-                  <div className="border-b-2 border-slate-100 py-3 pb-6 w-full flex justify-center mb-5">
-                    <span>{item.icon}</span>
-                  </div>
-                  <h3 className="text-xl font-medium mb-2 text-textPrimary">
-                    {item.title}
-                  </h3>
-                  <p className="text-textSecondary">{item.description}</p>
-                  <Link
-                    href="#"
-                    className="mt-5 py-1 px-4 inline-block text-textSecondary hover:text-primary border border-textSecondary hover:border-primary duration-200 rounded-full "
-                  >
-                    Read more
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </section>
   );

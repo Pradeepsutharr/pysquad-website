@@ -8,15 +8,15 @@ function Python() {
   return (
     <>
       <SEO
-        pageTitle={"Best Python company"}
-        ogTitle={"Best Python Company"}
-        ogUrl={"https://pysquad.com/python"}
+        pageTitle={"Best Python company | Pysquad"}
         pageDescription={
           "PySquad delivers exceptional Python development solutions. Build robust web apps, automate tasks, and harness data science with our Python expertise."
         }
         keywords={
           " Python, Python development, Python web development, data science, automation, software development, machine learning"
         }
+        ogTitle={"Python Development by Pysquad"}
+        ogUrl={"https://pysquad.com/python"}
       />
       <PythonPage />
     </>

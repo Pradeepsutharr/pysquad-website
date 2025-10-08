@@ -49,9 +49,6 @@ function Navbar() {
         setIsActive("");
         break;
 
-      case "/":
-        setIsActive("/");
-
       default:
         break;
     }
@@ -102,14 +99,14 @@ function Navbar() {
                         href={`${item.link}?id=${item?.id}`}
                         target={item?.title === "Odoo ERP" ? "_blank" : "_self"}
                         as={item.link}
-                        className="flex items-center gap-4 w-full py-3 capitalize"
+                        className="flex items-center gap-4 w-full py-3 capitalize text-textSecondary text-base font-medium group-hover:text-primary transition-colors"
                       >
                         <div className="sub-menu-icon bg-[#DAF3F1] p-2 rounded-lg">
                           {item.icon}
                         </div>
-                        <p className="text-textSecondary text-base font-medium group-hover:text-primary transition-colors">
-                          {item.title}
-                        </p>
+                        {/* <p className="text-textSecondary text-base font-medium group-hover:text-primary transition-colors"> */}
+                        {item.title}
+                        {/* </p> */}
                       </Link>
                     </li>
                   ))}
