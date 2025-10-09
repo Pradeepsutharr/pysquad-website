@@ -1,7 +1,11 @@
 import React from "react";
-import ContactForm from "@/form/contact-form";
 import { Check } from "lucide-react";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const ContactForm = dynamic(() => import("../../form/contact-form"), {
+  ssr: false,
+});
 
 function MvpContact() {
   return (

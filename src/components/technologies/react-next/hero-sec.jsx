@@ -44,7 +44,7 @@ function ReactHero() {
                 priority
                 fetchPriority="high"
                 alt="pysquad_react"
-                className="ms-auto w-auto max-h-80 animate-[spin_10s_linear_infinite]"
+                className="max-h-80 md:w-auto ms-auto w-full animate-[spin_10s_linear_infinite]"
               />
             </div>
           </div>

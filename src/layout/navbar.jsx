@@ -9,6 +9,9 @@ function Navbar() {
   const location = useRouter();
   const [isActive, setIsActive] = useState(location.route);
 
+  console.log("Current route:", location.route);
+  console.log("Is active:", isActive);
+
   useEffect(() => {
     switch (location.route) {
       case "/career":
@@ -49,10 +52,15 @@ function Navbar() {
         setIsActive("");
         break;
 
+      case "/":
+        setIsActive("/");
+        break;
+
       default:
+        setIsActive(null);
         break;
     }
-  }, [location]);
+  }, [location.route]);
 
   const handleNavClick = (e, link) => {
     if (link === "/industries") {

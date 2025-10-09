@@ -15,7 +15,7 @@ function ReactServices() {
           with your needs.
         </p>
 
-        <div className="flex flex-wrap justify-between lg:gap-y-10">
+        <div className="flex flex-wrap justify-between items-start lg:gap-y-10">
           {react_services &&
             react_services.map((service) => (
               <div key={service.id} className="col-12 md:col-6 lg:col-3">

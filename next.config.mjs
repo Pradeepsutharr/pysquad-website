@@ -1,5 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    modernOutput: true,
+  },
+
+  compiler: {
+    removeConsole: process.env.NODE_ENV === "production",
+  },
+
   reactStrictMode: true,
   devIndicators: false,
   productionBrowserSourceMaps: true,

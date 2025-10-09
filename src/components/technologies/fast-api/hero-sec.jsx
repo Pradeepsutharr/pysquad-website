@@ -44,7 +44,7 @@ function FastApiHero() {
                 priority
                 fetchPriority="high"
                 alt="pysquad_python"
-                className="ms-auto w-auto max-h-80"
+                className="max-h-80 md:w-auto ms-auto w-full"
               />
             </div>
           </div>

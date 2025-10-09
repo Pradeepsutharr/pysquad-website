@@ -43,7 +43,7 @@ function FlutterHero() {
                 priority
                 fetchPriority="high"
                 alt="pysquad_flutter"
-                className="ms-auto w-auto max-h-80"
+                className="max-h-80 md:w-auto ms-auto w-full"
               />
             </div>
           </div>

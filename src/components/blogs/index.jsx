@@ -47,7 +47,7 @@ function BlogsPage() {
       const timeout = setTimeout(() => {
         setVisibleCount((prev) => prev + 6);
         setLoadingMore(false);
-      }, 1000);
+      }, 300);
       return () => clearTimeout(timeout);
     }
   }, [inView, visibleCount, blogs.length]);

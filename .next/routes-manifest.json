@@ -217,16 +217,16 @@
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "dataRouteRegex": "^/_next/data/JUgEBFXZbYV9UWMPId\\-ro/blogs/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/JUgEBFXZbYV9UWMPId\\-ro/blogs/(?<nxtPslug>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/fnT3FtvQPlc8m\\-Nu2X3v7/blogs/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/fnT3FtvQPlc8m\\-Nu2X3v7/blogs/(?<nxtPslug>[^/]+?)\\.json$"
     },
     {
       "page": "/case-studies/[slug]",
       "routeKeys": {
         "nxtPslug": "nxtPslug"
       },
-      "dataRouteRegex": "^/_next/data/JUgEBFXZbYV9UWMPId\\-ro/case\\-studies/([^/]+?)\\.json$",
-      "namedDataRouteRegex": "^/_next/data/JUgEBFXZbYV9UWMPId\\-ro/case\\-studies/(?<nxtPslug>[^/]+?)\\.json$"
+      "dataRouteRegex": "^/_next/data/fnT3FtvQPlc8m\\-Nu2X3v7/case\\-studies/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/fnT3FtvQPlc8m\\-Nu2X3v7/case\\-studies/(?<nxtPslug>[^/]+?)\\.json$"
     }
   ],
   "rsc": {

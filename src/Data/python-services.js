@@ -1,12 +1,11 @@
-
 export const python_services = [
   {
     id: "1",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="49"
-        height="59"
+        width="40"
+        height="40"
         viewBox="0 0 49 59"
         fill="none"
       >
@@ -45,8 +44,8 @@ export const python_services = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="63"
-        height="61"
+        width="40"
+        height="40"
         viewBox="0 0 63 61"
         fill="none"
       >
@@ -112,8 +111,8 @@ export const python_services = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="60"
-        height="60"
+        width="40"
+        height="40"
         viewBox="0 0 60 60"
         fill="none"
       >
@@ -151,8 +150,8 @@ export const python_services = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="65"
-        height="66"
+        width="40"
+        height="40"
         viewBox="0 0 65 66"
         fill="none"
       >
@@ -187,8 +186,8 @@ export const python_services = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="62"
-        height="61"
+        width="40"
+        height="40"
         viewBox="0 0 62 61"
         fill="none"
       >
@@ -215,8 +214,8 @@ export const python_services = [
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="67"
-        height="55"
+        width="45"
+        height="40"
         viewBox="0 0 67 55"
         fill="none"
       >

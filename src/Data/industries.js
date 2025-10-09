@@ -114,7 +114,7 @@ export const industries = [
         />
       </svg>
     ),
-    title: "Health Care & Pharmaceutical",
+    title: "HealthCare & Pharmaceutical",
     link: "/healthcare-&-pharmaceutical",
     description:
       "We offer a range of health care & Pharmaceutical solutions, including telemedicine, patient portals, and electronic health records.",

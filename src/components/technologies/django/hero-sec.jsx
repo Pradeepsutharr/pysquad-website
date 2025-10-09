@@ -16,7 +16,7 @@ function DjangoHero() {
           className="object-cover z-[-1]"
         />
         <div className="container p-0">
-          <div className="flex flex-wrap justify-between items-center">
+          <div className="flex flex-wrap justify-center md:justify-between items-center">
             <div className="col-12 md:col-6 lg:col-6">
               <h1 className="text-3xl lg:text-5xl font-bold lg:leading-tight capitalize text-white">
                 <span className="text-primary">creafting powerfull web </span>
@@ -37,7 +37,7 @@ function DjangoHero() {
                 />
               </div>
             </div>
-            <div className="col-12 md:col-6 lg:col-5">
+            <div className="col-12 md:col-6 lg:col-5 ">
               <Image
                 src="/images/django.svg"
                 width={422}
@@ -45,7 +45,7 @@ function DjangoHero() {
                 priority
                 fetchPriority="high"
                 alt="pysquad_python"
-                className="ms-auto w-auto max-h-80"
+                className="max-h-80 md:w-auto ms-auto w-full"
               />
             </div>
           </div>

@@ -21,15 +21,15 @@
   "/manufacturing": "pages/manufacturing.html",
   "/marina": "pages/marina.html",
   "/mvp": "pages/mvp.html",
-  "/news-media": "pages/news-media.html",
   "/privacy-policy": "pages/privacy-policy.html",
+  "/news-media": "pages/news-media.html",
   "/product": "pages/product.html",
   "/python": "pages/python.html",
   "/react-next": "pages/react-next.html",
   "/services": "pages/services.html",
   "/software": "pages/software.html",
   "/terms-conditions": "pages/terms-conditions.html",
-  "/blogs/[slug]": "pages/blogs/[slug].js",
   "/case-studies/[slug]": "pages/case-studies/[slug].js",
+  "/blogs/[slug]": "pages/blogs/[slug].js",
   "/404": "pages/404.html"
 }

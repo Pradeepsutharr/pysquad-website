@@ -26,7 +26,7 @@ function Services() {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-between items-center mt-6">
+        <div className="flex flex-wrap justify-between items-start mt-6">
           {services?.map((item) => (
             <div key={item.id} className="col-12 md:col-6 lg:col-3">
               <div className="content">

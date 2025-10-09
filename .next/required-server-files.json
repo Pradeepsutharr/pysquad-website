@@ -110,7 +110,9 @@
       "keepAlive": true
     },
     "logging": {},
-    "compiler": {},
+    "compiler": {
+      "removeConsole": true
+    },
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
     "modularizeImports": {
@@ -228,6 +230,7 @@
       "browserDebugInfoInTerminal": false,
       "optimizeRouterScrolling": false,
       "strictNextHead": true,
+      "modernOutput": true,
       "optimizePackageImports": [
         "lucide-react",
         "date-fns",

@@ -1,5 +1,9 @@
 import React from "react";
-import ContactForm from "@/form/contact-form";
+import dynamic from "next/dynamic";
+
+const ContactForm = dynamic(() => import("../form/contact-form"), {
+  ssr: false,
+});
 
 function ContactArea() {
   return (
