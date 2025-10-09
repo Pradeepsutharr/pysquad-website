@@ -9,8 +9,8 @@ function Navbar() {
   const location = useRouter();
   const [isActive, setIsActive] = useState(location.route);
 
-  console.log("Current route:", location.route);
-  console.log("Is active:", isActive);
+  // console.log("Current route:", location.route);
+  // console.log("Is active:", isActive);
 
   useEffect(() => {
     switch (location.route) {

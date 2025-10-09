@@ -1,1 +1,6 @@
-"use strict";(()=>{var a={};a.id=3220,a.ids=[3220],a.modules={361:a=>{a.exports=require("next/dist/compiled/next-server/pages.runtime.prod.js")},2015:a=>{a.exports=require("react")},3873:a=>{a.exports=require("path")},8732:a=>{a.exports=require("react/jsx-runtime")},9925:(a,b,c)=>{c.r(b),c.d(b,{default:()=>f});var d=c(8732),e=c(2341);function f(){return(0,d.jsxs)(e.Html,{lang:"en",children:[(0,d.jsxs)(e.Head,{children:[(0,d.jsx)("link",{rel:"dns-prefetch",href:"https://storage.googleapis.com"}),(0,d.jsx)("link",{rel:"preconnect",href:"https://storage.googleapis.com",crossOrigin:"true"})]}),(0,d.jsxs)("body",{children:[(0,d.jsx)(e.Main,{}),(0,d.jsx)(e.NextScript,{})]})]})}}};var b=require("../webpack-runtime.js");b.C(a);var c=b.X(0,[6089,2341],()=>b(b.s=9925));module.exports=c})();
+const CHUNK_PUBLIC_PATH = "server/pages/_document.js";
+const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_bf671b14._.js");
+runtime.loadChunk("server/chunks/ssr/[root-of-the-server]__77a1878d._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/src/pages/_document.jsx [ssr] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/src/pages/_document.jsx [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
